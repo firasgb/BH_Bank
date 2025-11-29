@@ -1,30 +1,35 @@
-# ?? Projet BH Bank - Site Web Complet 
- 
-"## ?? Description" 
-"Projet de stage d‚velopp‚ pour BH Bank contenant un site web complet avec multiples fonctionnalit‚s bancaires." 
- 
-"## ?? Fonctionnalit‚s" 
-"- **26 pages HTML** organis‚es" 
-"- **Gestion des cartes bancaires** (BH GOLD, BH Technologie, Visa/MasterCard)" 
-"- **Comptes courants** (adh‚sion, cl“ture, KYC, sp‚cimen)" 
-"- **Op‚rations bancaires** (chŠque, remise, retrait, versement, virement)" 
-"- **R‚seau d'agences** (Bizerte, Djerba, Sfax, Sousse, Tunis)" 
-"- **Actualit‚s et ‚v‚nements**" 
-"- **Services clients** complets" 
- 
-"## ?? Structure du Projet" 
-"- \`index.html\` - Page d'accueil principale" 
-"- \`pages/\` - 25 pages internes organis‚es" 
-"- \`css/\` - Feuilles de style modulaires" 
-"- \`images/\` - 100+ ressources graphiques" 
-"- \`js/\` - Dossier pour scripts futurs" 
- 
-"## ?? Technologies" 
-"- HTML5, CSS3" 
-"- Structure modulaire et professionnelle" 
- 
-"## ?? Statistiques" 
-"- **321 fichiers** au total" 
-"- **26 pages HTML**" 
-"- **15+ fichiers CSS** organis‚s" 
-"- **100+ images et m‚dias**" 
+# ğŸ¦ Projet BH Bank - Site Web Complet
+
+## ğŸ“‹ Description
+Projet de stage dÃ©veloppÃ© pour BH Bank contenant un site web complet avec multiples fonctionnalitÃ©s bancaires.
+
+## âœ¨ FonctionnalitÃ©s
+- **26 pages HTML** organisÃ©es
+- **Gestion des cartes bancaires** (BH GOLD, BH Technologie, Visa/MasterCard)
+- **Comptes courants** (adhÃ©sion, clÃ´ture, KYC, spÃ©cimen)
+- **OpÃ©rations bancaires** (chÃ¨que, remise, retrait, versement, virement)
+- **RÃ©seau d'agences** (Bizerte, Djerba, Sfax, Sousse, Tunis)
+- **ActualitÃ©s et Ã©vÃ©nements**
+- **Services clients** complets
+
+## ğŸ“ Structure du Projet
+- `index.html` - Page d'accueil principale
+- `pages/` - 25 pages internes organisÃ©es
+- `css/` - Feuilles de style modulaires
+- `images/` - 100+ ressources graphiques
+- `js/` - Dossier pour scripts futurs
+
+## ğŸ› ï¸ Technologies
+- HTML5, CSS3
+- Structure modulaire et professionnelle
+
+## ğŸ“Š Statistiques
+- **321 fichiers** au total
+- **26 pages HTML**
+- **15+ fichiers CSS** organisÃ©s
+- **100+ images et mÃ©dias**
+
+## ğŸš€ Installation
+1. Cloner le repository :
+```bash
+git clone https://github.com/firasgb/BH_Bank.git
