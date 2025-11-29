@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../index1/styles/header_style.css" />
+    <link rel="stylesheet" href="styles/footer_style.css" />
+    <link rel="stylesheet" href="styles/contact_style.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <div
+      class="scroll"
+      style="
+        width: 40px;
+        height: 150px;
+        position: fixed;
+        top: 250px;
+        right: 5px;
+        z-index: 2;
+      "
+    >
+      <a href="https://www.facebook.com/BHBank" target="_blank"
+        ><img
+          src="photo/facebook.png"
+          alt=""
+          style="border-radius: 10px; height: 25px; width: 40px"
+      /></a>
+      <a href="https://www.instagram.com/bh_bank/" target="_blank"
+        ><img
+          src="photo/instagram.png"
+          alt=""
+          style="border-radius: 10px; height: 25px; width: 40px"
+      /></a>
+      <a href="https://www.linkedin.com/company/bh-bank" target="_blank"
+        ><img
+          src="photo/linkedin.png"
+          alt=""
+          style="border-radius: 10px; height: 25px; width: 40px"
+      /></a>
+      <a
+        href="https://www.youtube.com/channel/UCRw2rFa-9RhCg7Mq1q4Q7Sg?view_as=subscriber"
+        target="_blank"
+        ><img
+          src="photo/youtube.png"
+          alt=""
+          style="border-radius: 10px; height: 25px; width: 40px"
+      /></a>
+    </div>
+    <div class="arriere-plan">
+      <img
+        src="photo/numéro-vert2.png"
+        style="
+          background-repeat: no-repeat;
+          position: absolute;
+          top: 140px;
+          left: 160px;
+          width: 1200px;
+          height: 813px;
+          z-index: 1;
+          opacity: 0.8;
+        "
+        alt=""
+      />
+    </div>
+    <div class="main-container">
+      <header>
+        <div class="header-top">
+          <div class="logo">
+            <img src="photo/logo.png" alt="BH BANK" />
+          </div>
+          <div class="search-container">
+            <input type="search" placeholder="RECHERCHER..." />
+          </div>
+          <a href="Gerez.html" class="account-access">Gérer vos comptes</a>
+        </div>
+
+        <nav>
+          <ul class="main-nav">
+            <li class="nav-item">
+              <a href="index-1.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">La banque</a>
+              <div class="dropdown">
+                <a href="Presentation.html">Présentation</a>
+                <a href="historique.html">Historique</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="#">Les cartes bancaires</a>
+              <div class="dropdown">
+                <a href="../index1/cartes%20bank/LaCarteBHTechnologie.html"
+                  >La carte BH Technologie</a
+                >
+                <a
+                  href="../index1/cartes%20bank/LesCartesVisaetMasterCardClassicNationales.html"
+                  >Les cartes Visa et MasterCard</a
+                >
+                <a href="../index1/cartes%20bank/LaCarteBHGOLDNATIONALE.html"
+                  >La Carte BH Gold nationale</a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="#">Notre réseau</a>
+              <div class="dropdown">
+                <a href="../index1/point%20de%20vente/bizerte.html">Bizerte</a>
+                <a href="../index1/point%20de%20vente/Tunis.html">Tunis</a>
+                <a href="../index1/point%20de%20vente/sousse.html">Sousse</a>
+                <a href="../index1/point%20de%20vente/djerba.html">Djerba</a>
+                <a href="../index1/point%20de%20vente/sfax.html">Sfax</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="recru.html">Recrutement</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <tbody>
+        <div class="cadre" style="z-index: 1">Nous contacter</div>
+        <div class="cadre-1">
+          <label for="l1">Vous êtes <span style="color: red">*</span> </label>
+          <select name="l1" id="l1">
+            <option value="l1">Client BH</option>
+            <option value="l1">Non Client BH</option>
+          </select>
+          <br />
+          <label for="l2">Nom <span style="color: red">*</span> </label>
+          <input type="text" id="l2" required placeholder="Votre Nom" /> <br />
+          <label for="l3">Prénom <span style="color: red">*</span> </label>
+          <input type="text" required placeholder="Votre Prénom" id="l3" />
+          <br />
+          <label for="l4">Email <span style="color: red">*</span> </label>
+          <input
+            type="email"
+            required
+            placeholder="contact@gmail.com"
+            id="l4"
+          />
+          <br />
+          <label for="l5">Téléphone <span style="color: red"> * </span> </label>
+          <input type="number" required placeholder="votre numéro" id="l5" />
+          <br />
+          <label for="l6"
+            >Numéro d'identité nationale <span style="color: red">*</span>
+          </label>
+          <input
+            type="number"
+            id="l6"
+            required
+            placeholder="votre N° d'identité"
+          />
+          <br />
+          <label for="l7">RIB</label>
+          <input type="number" id="l7" required placeholder="votre RIB" />
+          <br />
+          <label for="l8">Type de la demande</label>
+          <select name="l8" id="l8">
+            <br />
+            <option selected="selected">- Aucun(e) -</option>
+            <option>Réclamation</option>
+            <option>Demande d'information</option>
+          </select>
+          <br />
+          <label for="l9">Message <span style="color: red">*</span> </label>
+          <textarea name="l9" id="l9" cols="40" rows="5"></textarea><br />
+          <input
+            type="submit"
+            value="Enregister"
+            style="
+              height: 40px;
+              width: 400px;
+              position: absolute;
+              left: 520px;
+              border-radius: 10px;
+              border-color: blue;
+            "
+          />
+          <input
+            type="reset"
+            style="
+              height: 40px;
+              position: absolute;
+              left: 930px;
+              width: 150px;
+              border-radius: 10px;
+              border-color: blue;
+            "
+          />
+        </div>
+      </tbody>
+
+      <footer>
+        <div class="foot">
+          <div class="lblanc-1"></div>
+          <div class="lblanc-2"></div>
+
+          <span class="tr-1">NOUS CONTACTER</span>
+          <span class="pr-1">
+            📍 18 Avenue Mohamed V Tunis <br />
+            ✉️ <a href="mailto:contact@bhbank.tn">contact@bhbank.tn</a><br />
+            📞 (+216) 71 126 000
+          </span>
+
+          <span class="tr-2">MÉDIATEUR</span>
+          <span class="pr-2">
+            Slahdine ben Salah <br />
+            📍 9 R Fruits BrjBaccouch 2027 Ariana <br />
+            ✉️
+            <a href="mailto:bensalah.slahddine@apbt.org.tn"
+              >bensalah.slahddine@apbt.org.tn</a
+            >
+          </span>
+
+          <span class="tr-3">LIENS UTILES</span>
+          <span class="pr-3">
+            <a href="recru.html">RECRUTEMENT</a> <br />
+            <a href="Gerez.html">GÉREZ VOS COMPTES</a>
+          </span>
+
+          <span class="tr-4">NOTRE RÉSEAU</span>
+          <span class="pr-4">
+            <a href="../index1/point%20de%20vente/djerba.html">JERBA</a> <br />
+            <a href="../index1/point%20de%20vente/Tunis.html">TUNIS</a>
+          </span>
+
+          <span class="tr-5">PUBLICATIONS</span>
+          <div class="pr-5">
+            <a href="les%20demandes/retrait.html">retrait</a> <br />
+            <a href="les%20demandes/remise.html">remise de cheque</a><br />
+            <a href="les%20demandes/virement.html">ordre de virement</a><br />
+            <a href="les%20demandes/versement.html"
+              >bulletin de versement en especes</a
+            ><br />
+            <a href="les%20demandes/cheque.html">demande de chequier</a><br />
+          </div>
+
+          <div class="social-media">
+            <span class="copy">2023 © BH BANK COPYRIGHT</span><br />
+            <a href="https://www.facebook.com/BHBank" target="_blank"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/124/124010.png"
+                alt="Facebook"
+                class="img1"
+            /></a>
+            <a href="https://www.instagram.com/bh_bank/" target="_blank"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/174/174855.png"
+                alt="Instagram"
+                class="img2"
+            /></a>
+            <a
+              href="https://www.youtube.com/channel/UCRw2rFa-9RhCg7Mq1q4Q7Sg?view_as=subscriber"
+              target="_blank"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/174/174883.png"
+                alt="YouTube"
+                class="img3"
+            /></a>
+            <a href="https://www.linkedin.com/company/bh-bank" target="_blank"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+                class="img4"
+                alt="LinkedIn"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

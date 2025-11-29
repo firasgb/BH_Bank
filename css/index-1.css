@@ -1,0 +1,553 @@
+body .main-container {
+  width: 1200px;
+  position: absolute;
+  left: 150px;
+  background-color: white;
+  height: 2650px;
+}
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  background-color: gainsboro;
+}
+@keyframes anime {
+  25% {
+    background-image: url(../photo/9.jpg);
+  }
+  50% {
+    background-image: url(../photo/IMGBN89918bhpay.jpg);
+  }
+  75% {
+    background-image: url(../photo/masken-awel-bh.png);
+  }
+  100% {
+    background-image: url(../photo/pelBAN0820201238.jpg);
+  }
+}
+body .slide {
+  background-image: url(../photo/carte-de-bonne-annee-2023-or-et-noir-rendu-3d-2hc23mp.jpg);
+  width: 1200px;
+  height: 540px;
+  animation-name: anime;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-delay: 4s;
+}
+@keyframes colors {
+  25% {
+    color: rgb(6, 185, 255);
+  }
+  50% {
+    color: rgb(255, 251, 0);
+  }
+  75% {
+    color: rgb(255, 0, 221);
+  }
+  100% {
+    color: black;
+  }
+}
+@keyframes translate {
+  25% {
+    transform: translate(60px, -10px);
+    color: rgb(6, 212, 219);
+  }
+  50% {
+    transform: scale(1.1);
+    color: red;
+    background-image: repeating-linear-gradient(
+      rgb(183, 255, 155),
+      rgb(9, 151, 128)
+    );
+  }
+  100% {
+    transform: translate(-20px, 10px);
+    background-image: repeating-linear-gradient(rgb(6, 6, 25), rgb(6, 6, 70));
+  }
+}
+body .bl1 {
+  border: 1px solid white;
+  height: 160px;
+  width: 200px;
+  position: absolute;
+  top: 710px;
+  background-image: repeating-linear-gradient(rgb(6, 6, 25), rgb(6, 6, 70));
+  z-index: 1;
+}
+body .bl-1 a,
+.bl-2 a,
+.bl-3 a,
+.bl-4 a,
+.bl-5 a {
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  top: 100px;
+  font-size: 19px;
+  text-align: center;
+  text-transform: uppercase;
+}
+body .bl-1 a {
+  left: 65px;
+  font-size: 17px;
+  font-weight: bold;
+}
+body .bl-2 a {
+  left: 5px;
+  font-size: 17px;
+  font-weight: bold;
+}
+body .bl-3 a {
+  left: 10px;
+  font-size: 17px;
+  font-weight: bold;
+}
+body .bl-4 a {
+  left: 0px;
+  font-size: 17px;
+  top: 90px;
+  font-weight: bold;
+}
+body .bl-5 a {
+  left: 0px;
+  font-size: 17px;
+  font-weight: bold;
+}
+body .bl2 {
+  border: 1px solid white;
+  height: 160px;
+  width: 200px;
+  position: absolute;
+  top: 710px;
+  left: 225px;
+  background-image: repeating-linear-gradient(rgb(6, 6, 25), rgb(6, 6, 70));
+  z-index: 1;
+}
+body .bl3 {
+  border: 1px solid white;
+  height: 160px;
+  width: 200px;
+  position: absolute;
+  top: 710px;
+  left: 500px;
+  background-image: repeating-linear-gradient(rgb(6, 6, 25), rgb(6, 6, 70));
+  z-index: 1;
+}
+body .bl4 {
+  border: 1px solid white;
+  height: 160px;
+  width: 200px;
+  position: absolute;
+  top: 710px;
+  left: 775px;
+  background-image: repeating-linear-gradient(rgb(6, 6, 25), rgb(6, 6, 70));
+  z-index: 1;
+}
+body .bl5 {
+  border: 1px solid white;
+  height: 160px;
+  width: 200px;
+  position: absolute;
+  top: 710px;
+  left: 1000px;
+  background-image: repeating-linear-gradient(rgb(6, 6, 25), rgb(6, 6, 70));
+  z-index: 1;
+}
+body .bl1:hover,
+.bl2:hover,
+.bl3:hover,
+.bl4:hover,
+.bl5:hover,
+.bl6:hover {
+  background-color: rgba(6, 6, 58, 0.94);
+  height: 170px;
+  opacity: 0.8;
+}
+body .der {
+  color: rgb(53, 53, 53);
+  font-weight: bolder;
+  font-size: 20px;
+  position: absolute;
+  top: 920px;
+  font-family: sans-serif;
+  left: 40%;
+  z-index: 1;
+  animation-name: translate;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+body .der-1 {
+  border: 1px solid gray;
+  width: 320px;
+  height: 170px;
+  position: absolute;
+  top: 340px;
+  z-index: 1;
+  left: 20px;
+  background-color: white;
+}
+body .der-2 {
+  border: 1px solid gray;
+  width: 320px;
+  height: 190px;
+  position: absolute;
+  top: 340px;
+  z-index: 1;
+  left: 430px;
+  background-color: white;
+}
+body .der-3 {
+  border: 1px solid gray;
+  width: 320px;
+  height: 180px;
+  position: absolute;
+  top: 340px;
+  z-index: 1;
+  left: 860px;
+  background-color: white;
+}
+body .lr {
+  border-bottom: 3px solid red;
+  width: 90px;
+  position: absolute;
+  top: 1010px;
+  left: 46%;
+  z-index: 1;
+}
+body .tit-1,
+.tit-2,
+.tit-3 {
+  font-weight: bold;
+  font-size: 17px;
+  position: absolute;
+  top: 40px;
+}
+body .tit-1:hover,
+.tit-2:hover,
+.tit-3:hover {
+  color: red;
+}
+body .tit-1 {
+  left: 35px;
+}
+body .cb a {
+  text-decoration: none;
+  position: absolute;
+  top: 90px;
+}
+body .cb a {
+  left: 25px;
+  position: absolute;
+}
+body .tit-2 {
+  left: 20px;
+}
+body .tit-3 {
+  left: 7px;
+}
+body .cb {
+  width: 1200px;
+  height: 600px;
+  position: absolute;
+  top: 700px;
+  background-color: rgb(228, 241, 237);
+}
+body .cc1 {
+  border: 1px solid darkblue;
+  width: 600px;
+  height: 200px;
+  position: absolute;
+  top: 1300px;
+  background-image: repeating-linear-gradient(rgb(6, 6, 25), rgb(6, 6, 70));
+}
+body .cc2 {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  position: absolute;
+  top: 10px;
+  left: 25px;
+  text-decoration: none;
+}
+body .cc2:hover {
+  color: darkblue;
+}
+body .cc3 {
+  position: absolute;
+  border: 1px solid white;
+  width: 140px;
+  height: 40px;
+  top: 140px;
+  left: 225px;
+  z-index: 1;
+}
+body .cc3:hover {
+  background-color: white;
+}
+body .dv {
+  color: white;
+  position: relative;
+  top: 99px;
+  left: 234px;
+  font-weight: bolder;
+  font-size: 21px;
+}
+body .cc1 img {
+  width: 90px;
+  position: absolute;
+  top: -125px;
+  z-index: 1;
+  border-radius: 10px;
+  left: 30px;
+}
+body .dv {
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 99px;
+  left: 234px;
+  font-weight: bolder;
+  font-size: 21px;
+  width: 130px;
+}
+body .cbl-1 {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 1300px;
+  left: 610px;
+}
+body .cbl-2 {
+  border: 1px solid black;
+  width: 280px;
+  height: 200px;
+  position: absolute;
+  top: 1300px;
+  left: 919px;
+}
+body .cbl-2 .mghira a {
+  color: rgb(0, 0, 0);
+  background-color: white;
+  opacity: 0.6;
+  position: absolute;
+  border: 3px solid aqua;
+  top: 140px;
+  z-index: 1;
+  left: 40px;
+  font-size: 25px;
+  text-decoration: none;
+}
+body .bhn1 {
+  width: 600px;
+  height: 220px;
+  position: absolute;
+  top: 1510px;
+  background-image: url(../photo/Packages-BHBan2k.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+}
+body .bhn2 {
+  border: 1px solid black;
+  width: 106px;
+  height: 40px;
+  position: absolute;
+  top: 120px;
+  left: 20px;
+}
+body .bhn3 {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+body .bhn4 {
+  position: absolute;
+  top: 80px;
+  left: 20px;
+  font-size: 19px;
+}
+body #bhn4 {
+  color: red;
+}
+body .last-c {
+  width: 590px;
+  height: 218px;
+  position: absolute;
+  top: 1510px;
+  left: 610px;
+  overflow: hidden;
+}
+body .last-c img {
+  transition: 0.5s;
+  transition-timing-function: linear;
+  transition-duration: 0.2s;
+}
+body .last-c:hover img {
+  transform: scale(1.1) rotate(3deg);
+}
+body .last-c img {
+  width: 590px;
+  height: 218px;
+}
+body .tag1 {
+  position: absolute;
+  left: 130px;
+  top: 20px;
+  font-weight: bold;
+  font-size: 45px;
+  animation-name: color;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+body .tag1 {
+  animation-name: translate;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+body .tag2 {
+  font-weight: bold;
+  position: absolute;
+  left: 130px;
+  top: 50px;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+}
+body .care {
+  border: 1px solid black;
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  top: 115px;
+  left: 190px;
+  background-color: rgb(255, 255, 255);
+}
+body .tag3 {
+  font-weight: bold;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  color: black;
+}
+body .change {
+  border: 1px solid black;
+  width: 600px;
+  height: 220px;
+  position: absolute;
+  top: 1750px;
+}
+body .local {
+  width: 590px;
+  height: 220px;
+  position: absolute;
+  top: 1750px;
+  left: 610px;
+  background-color: gray;
+}
+body .local-t1 {
+  color: red;
+  position: absolute;
+  top: 40px;
+  font-weight: bold;
+  left: 25px;
+  font-size: 20px;
+}
+body .local-t2 {
+  color: rgb(255, 238, 0);
+  position: absolute;
+  top: 40px;
+  left: 130px;
+  font-weight: bold;
+  font-size: 20px;
+}
+body .local-b {
+  width: 550px;
+  height: 70px;
+  z-index: 1;
+  position: absolute;
+  top: 130px;
+  left: 20px;
+  background-color: white;
+  opacity: 0.6;
+}
+body #trou {
+  width: 500px;
+  position: absolute;
+  top: 145px;
+  z-index: 1;
+  background-color: rgb(247, 242, 242);
+  left: 45px;
+  height: 40px;
+  border-color: blue;
+}
+body .video-bh {
+  width: 600px;
+  height: 250px;
+  position: absolute;
+  top: 1990px;
+}
+body .video-bh .vote {
+  width: 250px;
+  height: 150px;
+}
+body .range {
+  width: 230px;
+  position: absolute;
+  top: 150px;
+  left: 350px;
+  box-shadow: 10px 10px 40px rgb(255, 230, 0) inset;
+  outline: rgb(255, 255, 255) 2px dotted;
+}
+body .range input[type="range"] {
+  width: 220px;
+  border: 1px solid red;
+}
+body .ouverture-t {
+  width: 590px;
+  height: 250px;
+  position: absolute;
+  top: 1990px;
+  left: 610px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.ouverture-t img {
+  transition: 0.5s;
+  transition-timing-function: linear;
+  transition-duration: 0.2s;
+}
+.ouverture-t:hover img {
+  transform: scale(1.1) rotate(2deg);
+}
+body .change video {
+  position: absolute;
+  height: 220px;
+  width: 900px;
+  left: -150px;
+}
+body .cbl-1 video {
+  width: 300px;
+  height: 250px;
+  position: absolute;
+  top: -40px;
+  visibility: visible;
+}
+body .news-img {
+  width: 110px;
+  height: 80px;
+  z-index: 1;
+  position: absolute;
+  top: 900px;
+  left: 350px;
+  border-radius: 410px;
+}

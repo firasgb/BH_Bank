@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body .main-container{
+    width: 1200px;
+    position: absolute;
+    left: 75px;
+    background-color: white;
+    height: 1800px;
+}
+body{
+    background-color: gainsboro;
+}
+/*begin header*/
+body header img{
+    width: 180px;
+    position: relative;
+    left: 10px;
+    top: 4px;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+@keyframes colors{
+    25%{
+        color: rgb(6, 185, 255);
+    }
+    50%{
+        color: rgb(255, 251, 0);
+    }
+    75%{
+        color: rgb(255, 0, 221);
+    }
+    100%{
+        color: black;
+    }
+} 
+body .botton{
+    color: white;
+    background-image:repeating-linear-gradient(rgb(6, 6, 25),rgb(6,6,70));
+    width: 170px;
+    height: 60px;
+    position: absolute;
+    right: 10px;
+    top: 48px;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+}
+body .bot{
+    position: relative;
+    top: 20px;
+}
+body .barre{
+    background-color: rgb(245, 83, 83) ;
+    height: 70px;
+}
+body .b,.b-6{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 135px;
+    left: 15px;
+    text-transform: uppercase;
+}
+body .i-1,.i-2,.i-3,.i-4{
+    border-left:1px solid white ;
+    height: 59px;
+    width: 1px;
+    position: absolute;
+    left: 92px;
+    top: 120px;
+}
+body .i-2{
+    left:204px ;
+}
+body .i-3{
+    left: 410px;
+}
+body .i-4{
+    left: 549px;
+}
+body .b-6{
+    left: 560px;
+}
+/**/
+#menu{
+    position: relative;
+}
+#sousmenu {
+    display: none;
+    position: absolute;
+    background-image: linear-gradient(white,rgb(245, 83, 83));
+    opacity: 0.95;
+    min-height:170px ;
+    padding: 10px 5px;
+    z-index: 1;
+    line-height: 50px;
+    left: -12px;
+    width: 104px;
+}
+body #sousmenu a{
+    text-decoration: none;
+}
+#cours:hover #sousmenu {
+    display: block;
+}
+#menu > div{
+    display: inline-block;
+}
+body #cours{
+    color: white;
+    background-color: rgb(245, 83, 83);
+    position: absolute;
+    top: 25px;
+    left:105px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+/*2*/
+#menu-2{
+    position: relative;
+}
+#sousmenu-2 {
+    display: none;
+    position: absolute;
+    background-image: linear-gradient(white,rgb(245, 83, 83));
+    opacity: 0.95;
+    min-height:170px ;
+    padding: 10px 5px;
+    z-index: 1;
+    line-height: 60px;
+    left: -15px;
+    width: 390px;
+    top: 15px;
+    font-size: 14px;
+}
+body #sousmenu-2 a{
+    text-decoration: none;
+}
+#cours-2:hover #sousmenu-2 {
+    display: block;
+}
+#menu-2 > div{
+    display: inline-block;
+}
+body #cours-2{
+    color: white;
+    background-color: rgb(245, 83, 83);
+    position: absolute;
+    top: 25px;
+    left:220px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+/*3*/
+#menu-3{
+    position: relative;
+}
+#sousmenu-3 {
+    display: none;
+    position: absolute;
+    background-image: linear-gradient(white,rgb(245, 83, 83));
+    opacity: 0.95;
+    min-height:170px ;
+    padding: 10px 5px;
+    z-index: 1;
+    line-height: 50px;
+    left: -10px;
+    width: 130px;
+    top: 15px;
+}
+body #sousmenu-3 a{
+    text-decoration: none;
+    
+}
+#cours-3:hover #sousmenu-3 {
+    display: block;
+}
+#menu-3 > div{
+    display: inline-block;
+}
+body #cours-3{
+    color: white;
+    background-color: rgb(245, 83, 83);
+    position: absolute;
+    top: 25px;
+    left:420px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+/*end header*/
+/*begin body*/
+body .titre{
+    color: red;
+    padding: 110px 440px;
+    width: 300px;
+    font-size: 40px;
+    z-index: 1;
+    opacity: 1;
+}
+body .form{
+    margin: 70px;
+    padding: 40px;
+    z-index: 1;
+}
+body input[type="number"],input[type="email"],input[type="text"]{
+    border: rgba(15, 236, 218, 0.904) 1px solid;
+    position: absolute;
+    left: 350px;
+    width: 300px;
+    height: 25px;
+    z-index: 1;
+}
+body select{
+    border: rgba(15, 236, 218, 0.904) 1px solid;
+    position: absolute;
+    left: 350px;
+    width: 150px;
+    height: 25px;
+    z-index: 1;
+}
+/*end body*/
+/*begin footer*/
+body .foot{
+    height:400px;
+    width: 1200px;
+    position: absolute;
+    bottom: -15px;
+    background-image:repeating-linear-gradient(rgb(6, 6, 25),rgb(6,6,70));
+}
+body .lblanc-1,.lblanc-2{
+    border-right: 1px solid white;
+    height: 280px;
+    position: absolute;
+    top: 20px;
+    left: 380px;
+    bottom: 40px;
+    color: red;
+}
+body .lblanc-2{
+    left: 780px;
+}
+body .tr-1{
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 40px;
+    left: 810px;
+}
+body .pr-1{
+    color: white;
+    position: absolute;
+    top: 70px;
+    left: 810px;
+    line-height: 30px;
+}
+body .tr-2{
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 190px;
+    left: 810px;
+}   
+body .pr-2{
+    color: white;
+    position: absolute;
+    top: 220px;
+    left: 810px;
+    line-height: 30px;
+}
+body .tr-3{
+    position: absolute;
+    color: red;
+    left: 400px;
+    top: 40px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+body .pr-3{
+    position: absolute;
+    top: 80px;
+    left: 400px;
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+}
+body .tr-4{
+    position: absolute;
+    top: 180px;
+    left: 400px;
+    color: red;
+    font-weight: BOLDER;
+    font-size: 22px;
+}
+body .pr-4{
+    position: absolute;
+    left: 400px;
+    top: 220px;
+    font-size: 18px;
+    letter-spacing: 15px;
+    text-decoration: underline;
+    line-height: 30px;
+}
+body .tr-5{
+    color: red;
+    position: absolute;
+    top: 35px;
+    left: 30px;
+    font-size:23px;
+    font-weight: bolder;
+}
+body .pr-5{
+    position: absolute;
+    top: 90px;
+    width: 300px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+body .pr-5 a{
+    color:white;
+    text-decoration: none;
+    position: absolute;
+    left: 30px;
+    font-size:14px;
+    animation-name: colors;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite ;
+}
+body footer .social-media{
+    position: absolute;
+    bottom: 10px;
+    height: 70px;
+    width: 200px;
+    left: 480px;
+    background-image:repeating-linear-gradient(rgb(6, 6, 25),rgb(6,6,70));
+
+}
+body .social-media .img1{
+    position: absolute;
+    top: 35px;
+    width: 20px;
+    left: 15px;
+    border-radius: 5px;
+}
+body .img1:hover{
+    width: 24px;
+    height: 24px;
+}
+body .social-media .img2{
+    left: 60px;
+    position: absolute;
+    top:35px;
+    width: 20px;
+    border-radius: 5px;
+}
+body .img2:hover{
+    width: 24px;
+    height: 24px;
+}
+body .social-media .img3{
+    left: 105px;
+    position: absolute;
+    top: 37px;
+    width: 22px;
+    border-radius: 5px;
+    height: 17px;
+}
+body .img3:hover{
+    width: 24px;
+    height: 24px;
+}
+body .social-media .img4{
+    left: 150px;
+    position: absolute;
+    top: 34px;
+    border-radius: 5px;
+    width: 20px;
+}
+body .img4:hover{
+    width: 24px;
+    height: 24px;
+}
+body .social-media .copy{
+    font-size: 14px;
+    position: absolute;
+    left: 5px;
+    top: 11px;
+    color: white;
+}
+body .d9:checked +
+    </style>
+</head>
+<body>
+    <div class="scroll" style="width: 40px;height: 150px;position: fixed;top: 250px;right: 5px;z-index: 1;">
+        <a href="https://www.facebook.com/BHBank" target="_blank"><img src="photo/facebook.png" alt=""  style="border-radius: 10px;height=25px;width: 40px;"></a>
+        <a href="https://www.instagram.com/bh_bank/" target="_blank"><img src="photo/instagram.png" alt="" style="border-radius: 10px;height=25px;width: 40px;"></a>
+        <a href="https://www.linkedin.com/company/bh-bank" target="_blank"><img src="photo/linkedin.png" alt="" style="border-radius: 10px;height=25px;width: 40px;"></a>
+        <a href="https://www.youtube.com/channel/UCRw2rFa-9RhCg7Mq1q4Q7Sg?view_as=subscriber" target="_blank"><img src="photo/youtube.png" alt="" style="border-radius: 10px;height=25px;width: 40px;"></a>
+    </div>
+    <div class="main-container">
+        <header>
+            <img src="photo/logo.png" alt="!!!">
+            <a href="Gerez.html" class="botton"><span class="bot">Gérer vos comptes</span></a>
+        </header>
+        <tbody>
+            <div class="barre">
+                <a href="index-1.html" class="b">accueil</a>
+                <div class="i-1"></div>
+                <div id="menu">
+                    <div id="cours">la banque
+                    <div id="sousmenu">
+                        <a href="Presentation.html"><div>Présentation</div></a>
+                        <a href="historique.html"><div>Historique</div></a>
+                    </div>
+                    </div>
+                </div>
+                <div class="i-2"></div>
+                <div id="menu-2">
+                    <div id="cours-2">LES CARTES BANCAIRES
+                        <div id="sousmenu-2">
+                            <a href="cartes bank/LaCarteBHTechnologie.html"><div>La carte BH Technologie</div></a>
+                            <a href="cartes bank/LesCartesVisaetMasterCardClassicNationales.html"><div>Les cartes Visa et MasterCard Classic Nationales</div></a>
+                            <a href="cartes bank/LaCarteBHGOLDNATIONALE.html"><div>La Carte BH Gold nationale</div></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="i-3"></div>
+                <div id="menu-3">
+                    <div id="cours-3">NOTRE RESEAU
+                        <div id="sousmenu-3">
+                            <a href="point de vente/bizerte.html"><div>BIZERTE</div></a>
+                            <a href="point de vente/Tunis.html"><div>TUNIS</div></a>
+                            <a href="point de vente/sousse.html"><div>SOUSSE</div></a>
+                            <a href="point de vente/djerba.html"><div>DJERBA</div></a>
+                            <a href="point de vente/sfax.html"><div>SFAX</div></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="i-4"></div>
+                <div class="i-6"></div>
+                <a href="contact.html" class="b-6">contact</a>
+            </div>
+        <!--begin body-->
+        <div class="titre" style="z-index: 1;text-shadow: 10px 10px rgb(0, 0, 0) ;">Déposez votre CV</div>
+        <div class="form" style="z-index: -1;">
+            <form action="">
+                <div class="arriere-plan">
+                    <img src="photo/cv2.png" style="position: fixed;position: absolute;top: 180px;left: 0px;background-attachment:scroll;z-index:1;opacity:0.45; width: 1200px;height:370px;" alt="img do not found">
+                </div>
+                <div class="d1">
+                    <label for="c1" style="z-index: 3;opacity: 1;">Civité <span style="color: red;">*</span></label>
+                <select name="c1" id="c1" required>
+                <option value="Monsieur">Monsieur</option>
+                <option value="Madame">Madame</option>
+                </select>
+                </div>
+                <br>
+                <div class="d2">
+                    <label for="c2">Nom <span style="color: red;">*</span></label>
+                <input type="text" id="c2" autofocus placeholder="écrivez votre nom" required>
+                </div>
+                <br>
+                <div class="d3">
+                    <label for="c3">Prénom <span style="color: red;">*</span></label>
+                <input type="text" id="c3" placeholder="écrivez votre prénom" required>
+                </div>
+                <br>
+                <div class="d4">
+                    <label for="c4">Genre <span style="color: red;">*</span></label>
+                <select name="" id="c4" required>
+                    <option value="Masculin">Masculin</option>
+                    <option value="Féminin">Féminin</option>
+                </select>
+                </div>
+                <br>
+                <div class="d5">
+                    <label for="c5">Date de naissance <span style="color: red;">*</span></label>
+                <select name="c5" id="c5" required style="position: absolute;left: 350px;width: 60px;">
+                    <option value="" selected="selected">Jour</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option>
+                    <option>18</option><option>19</option><option>20</option><option>21</option><option>22</option><option>23</option><option>24</option><option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option><option>31</option>
+                </select>
+                <select name="c6" id="c6" required style="position: absolute;left: 428px;width: 60px;">
+                    <option value="" selected="selected">Mois</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option>
+                </select>
+                <select name="c7" id="c7" required style="position: absolute;left: 506px;">
+                    <option value="" selected="selected">Année</option><option value="1964">1964</option><option value="1965">1965</option><option value="1966">1966</option><option value="1967">1967</option>
+                    <option value="1968">1968</option><option value="1969">1969</option><option value="1970">1970</option><option value="1971">1971</option><option value="1972">1972</option><option value="1973">1973</option><option value="1974">1974</option><option value="1975">1975</option><option value="1976">1976</option><option value="1977">1977</option><option value="1978">1978</option><option value="1979">1979</option><option value="1980">1980</option><option value="1981">1981</option><option value="1982">1982</option><option value="1983">1983</option><option value="1984">1984</option>
+                    <option value="1985">1985</option><option value="1986">1986</option><option value="1987">1987</option><option value="1988">1988</option><option value="1989">1989</option><option value="1990">1990</option><option value="1991">1991</option><option value="1992">1992</option><option value="1993">1993</option><option value="1994">1994</option><option value="1995">1995</option><option value="1996">1996</option><option value="1997">1997</option><option value="1998">1998</option><option value="1999">1999</option><option value="2000">2000</option><option value="2001">2001</option>
+                    <option value="2002">2002</option><option value="2003">2003</option><option value="2004">2004</option><option value="2005">2005</option></select>
+                </select>
+                </div>
+                <br>
+                <div class="d6">
+                    <label for="c8">Lieu de naissance <span style="color: red;">*</span></label>
+                <input type="text" id="c8" required>
+                </div>
+                <br>
+                <div class="d7">
+                    <label for="c9">Numéro CIN <span style="color: red;">*</span></label>
+                <input type="number" id="c9" placeholder="00000000" required>
+                </div>
+                <br>
+                <div class="d8">
+                    <label for="c10">Adresse <span style="color: red;">*</span></label>
+                <input type="text" required>
+                </div>
+                <br>
+                <div class="d9">
+                    <label for="c11">Gouvernorat <span style="color: red;">*</span></label>
+                <select name="c11" id="c11" required>
+                    <option value="" selected="selected">- Sélectionner -</option><option value="gouvernorat_tunis">Tunis</option><option value="gouvernorat_ariana">Ariana</option><option value="gouvernorat_manouba">Manouba</option><option value="gouvernorat_nabeul">Nabeul</option><option value="gouvernorat_bizerte">Bizerte</option><option value="gouvernorat_sousse">Sousse</option><option value="gouvernorat_monastir">Monastir</option><option value="gouvernorat_mahdia">Mahdia</option><option value="gouvernorat_sfax">Sfax</option><option value="gouvernorat_gabes">Gabes</option><option value="gouvernorat_medenine">Medenine</option><option value="gouvernorat_tozeur">Tozeur</option><option value="gouvernorat_kebili">Kebili</option><option value="gouvernorat_gafsa">Gafsa</option><option value="gouvernorat_sidi_bouzid">Sidi bouzid</option><option value="gouvernorat_kasserine">Kasserine</option><option value="gouvernorat_siliana">Siliana</option><option value="gouvernorat_jendouba">Jendouba</option><option value="gouvernorat_kef">Kef</option><option value="gouvernorat_beja">Beja</option>
+                    <option value="gouvernorat_kairouan">Kairouan</option><option value="gouvernorat_zaghouan">Zaghouan</option><option value="gouvernorat_tataouine">Tataouine</option><option value="gouvernorat_ben_arous">Ben Arous</option></select>
+                </select>
+                </div>
+                <br>
+                <div class="d10">
+                    <label for="c12">Lieu de travail souhaité <span style="color: red;">*</span></label>
+                <select name="c12" id="c12" required>
+                    <option value="" selected="selected">- Sélectionner -</option><option value="gouvernorat_tunis">Tunis</option><option value="gouvernorat_ariana">Ariana</option><option value="gouvernorat_manouba">Manouba</option><option value="gouvernorat_nabeul">Nabeul</option><option value="gouvernorat_bizerte">Bizerte</option><option value="gouvernorat_sousse">Sousse</option><option value="gouvernorat_monastir">Monastir</option><option value="gouvernorat_mahdia">Mahdia</option><option value="gouvernorat_sfax">Sfax</option><option value="gouvernorat_gabes">Gabes</option><option value="gouvernorat_medenine">Medenine</option><option value="gouvernorat_tozeur">Tozeur</option><option value="gouvernorat_kebili">Kebili</option><option value="gouvernorat_gafsa">Gafsa</option><option value="gouvernorat_sidi_bouzid">Sidi bouzid</option><option value="gouvernorat_kasserine">Kasserine</option><option value="gouvernorat_siliana">Siliana</option><option value="gouvernorat_jendouba">Jendouba</option><option value="gouvernorat_kef">Kef</option><option value="gouvernorat_beja">Beja</option><option value="gouvernorat_kairouan">Kairouan</option><option value="gouvernorat_zaghouan">Zaghouan</option><option value="gouvernorat_tataouine">Tataouine</option>
+                    <option value="gouvernorat_ben_arous">Ben Arous</option></select>
+                </select>
+                </div>
+                <br>
+                <div class="d11">
+                    <label for="c13">Mobilité <span style="color: red;">*</span></label>
+                    <select name="c13" id="c13" required>
+                        <option value="" selected="selected">- Sélectionner -</option><option value="mobilite_oui">Oui</option><option value="mobilite_non">Non</option>
+                    </select>
+                </div>
+                <br>
+                <div class="d12">
+                    <label for="c14">Numéro Télèphone <span style="color: red;">*</span></label>
+                <input type="number" placeholder="00000000" required id="c14">
+                </div>
+                <br>
+                <div class="d13">
+                    <label for="c15">Adresse Mail <span style="color: red;">*</span></label>
+                <input type="email" placeholder="contact@gmail.com" required id="c15">
+                </div>
+                <br>
+                <div class="d14">
+                    <label for="c16">Diplome <span style="color: red;">*</span></label>
+                <select name="c16" id="c16" required>
+                    <option>Bac</option><option>Licence</option><option>Mastére</option><option>Ingénieurie</option><option>Doctaurat</option>
+                </select>
+                </div>
+                <br>
+                <div class="d15">
+                    <label for="c17">Anneé d'obtention <span style="color: red;">*</span></label>
+                <select name="c17" id="c17" required>
+                    <option value="" selected="selected">Année</option> <option value="1990">1990</option><option value="1991">1991</option><option value="1992">1992</option><option value="1993">1993</option><option value="1994">1994</option><option value="1995">1995</option><option value="1996">1996</option><option value="1997">1997</option><option value="1998">1998</option><option value="1999">1999</option><option value="2000">2000</option><option value="2001">2001</option>
+                    <option value="2002">2002</option><option value="2003">2003</option><option value="2004">2004</option><option value="2005">2005</option><option value="2006">2006</option><option value="2007">2007</option><option value="2008">2008</option><option value="2009">2009</option><option value="2010">2010</option><option value="2011">2011</option><option value="2012">2012</option><option value="2013">2013</option><option value="2014">2014</option><option value="2015">2015</option><option value="2016">2016</option><option value="2017">2017</option><option value="2018">2018</option><option value="2019">2019</option><option value="2020">2020</option><option value="2021">2021</option><option value="2022">2022</option><option value="2023">2023</option></select>
+                </select>
+                </div>
+                <br>
+                <div class="d16">
+                    <label for="c18">Spécialité <span style="color: red;">*</span></label>
+                <input type="text"id="c18" required>
+                </div>
+                <br>
+                <div class="d17">
+                    <label for="c19">Etablissement <span style="color: red;">*</span></label>
+                <input type="text" id="c19" required>
+                </div>
+                <br>
+                <span class="c20" style="color:red">Ajouter au diplome (+)</span>
+                <br> <br>
+                <div class="d18">
+                    <label for="c21">Métiers souhaités <span style="color: red;">*</span></label>
+                <select name="c21" id="c21" required>
+                    <option value="" selected="selected">- Sélectionner -</option><option>À préciser</option><option >Ingénieur Système</option><option >Ingénieur DBA</option><option>Responsable Global Transaction Banking</option><option>Dealer Salle des Marchés</option><option >Inspecteur Auditeur</option><option>Responsable Conformité et Déontologie</option><option >Analyste de risques et Contrôle permanent</option><option >Contrôleur de Gestion</option><option>Chargé des Etudes et de la Planification</option><option >Juriste Bancaire Fiscaliste</option><option>Responsable Management Qualité</option><option>Comptable Contrôleur Bancaire</option><option>Analyste de crédit</option><option>Directeur Point de vente</option><option>Chargé de Clientèle</option><option>Conseiller en gestion du patrimoine et grandes relations</option><option>Guichetier polyvalent</option><option>Animateur commercial</option><option>Assistant technique (expert) d&#039;évaluation immobilière</option><option>Opérateur de salle de marché</option><option>Pilote de flux</option><option>Gestionnaire actif/passif</option><option>Technicien des opérations bancaires</option><option>Middle office</option><option>Responsable d&#039;une unité ou d&#039;un service traitant des opérations bancaires</option><option>Responsable marketing</option><option>Responsable Communication</option><option>Responsable RSE</option><option>Gestionnaire administratif du personnel</option><option>Gestionnaire du Social</option><option>Gestionnaire des Carrières et des emplois</option><option>Gestionnaire de la Formation</option><option>Gestionnaire Administratif/secrétariat</option><option>Archiviste/Documentaliste</option><option>Responsable de la logistique Immobilière, techniques et services</option><option>Chargé de la maintenance et de l&#039;entretien</option><option>Agent de sécurité, de gardiennage et d&#039;accueil</option><option>Chef de projets immobiliers</option><option>Administrateur des réseaux informatiques, télécommunication et sécurité informatique</option><option>Chef de projet informatique</option><option>Administrateur du système informatique</option><option>Chargé Etudes et développement informatique</option><option >Administrateur des bases de données</option><option>Responsable de la sécurité des système information</option><option>Chef de projet organisation bancaire</option>
+                </select>
+                </div>
+                <br>
+                <div class="d19">
+                    <label for="c22">Expérience Professionnelle antérieur 1 <span style="color: red;">*</span></label>
+                <input type="radio" id="c-22" name="c22" required>
+                <label for="c-22">oui</label>
+                <input type="radio" name="c22" required>
+                <label for="c_22">non</label>
+                </div>
+                <div class="d20">
+                    <label for="c23">Commentaire</label>
+                <textarea name="c23" id="c23" cols="60" rows="" style=" border: rgba(15, 236, 218, 0.904) 1px solid;position: absolute;left: 350px;"></textarea>
+                </div>
+                <input type="submit" style="width: 400px;position: absolute;left: 380px;bottom: 430px;height: 40px;background-color: rgb(6, 124, 170);border: 1px solid blue;">
+            </form>
+        </div>
+        <!--end body-->
+        <footer>
+            <div class="foot">
+            <div class="lblanc-1"></div>
+            <div class="lblanc-2"></div>
+            <span class="tr-1">NOUS CONTACTER</span>
+            <span class="pr-1">
+                <img src="photo/lo.jfif"  width="27px" alt="">
+                18 Avenue Mohamed V Tunis <br>
+                <img src="photo/lope.png"  width="17px" alt="">
+                <a href="mailto:contact@bhbank.tn " style="text-decoration: none;color: white;">contact@bhbank.tn </a><br>
+                <img src="photo/pho.jfif" width="20px" height="20px" alt="">
+                (+216) 71 126 000
+            </span>
+            <span class="tr-2">MEDIATEUR</span>
+            <span class="pr-2">
+                Slahdine ben Salah <br>
+                <img src="photo/lo.jfif"  width="27px" alt="">
+                9 R Fruits BrjBaccouch 2027 Ariana <br>
+                <img src="photo/lope.png"  width="17px" alt="">
+                <a href="mailto:bensalah.slahddine@apbt.org.tn " style="text-decoration: none;color: white;">bensalah.slahddine@apbt.org.tn </a><br>
+            </span>
+            <span class="tr-3">LIENS UTILES</span>
+            <span class="pr-3">
+                <a href="recru.html"  style="text-decoration: none;color: white;">RECRUTEMENT</a> <br>
+                <a href="Gerez.html"  style="text-decoration: none;color: white;">GEREZ VOS COMPTE</a>
+            </span>
+            <span class="tr-4"> NOTRE RÉSEAU</span>
+            <span class="pr-4">
+                <a href="point de vente/djerba.html" style="text-decoration: none;color: white;">JERBA</a> <br>
+                <a href="point de vente/Tunis.html" style="text-decoration: none;color: white;">TUNIS</a> <br>
+            </span>
+            <span class="tr-5">PUBLICATIONS</span>
+            <div class="pr-5">
+                <a href="les demandes/retrait.html" class="lien1">retrait</a> <br>
+                <a href="les demandes/remise.html" class="lien2">remise de cheque</a><br>
+                <a href="les demandes/virement.html" class="lien3">ordre de virement</a><br>
+                <a href="les demandes/versement.html" class="lien4">bulletin de versement en especes</a><br>
+                <a href="les demandes/cheque.html" class="lien5">demande de chequier</a><br>
+            </div>
+            <div class="social-media">
+                <span class="copy">2023 © BH BANK COPYRIGHT</span><br>
+                <a href="https://www.facebook.com/BHBank" target="_blank"><img src="photo/facebook.png" alt="!!!" class="img1"></a> 
+                <a href="https://www.instagram.com/bh_bank/" target="_blank"><img src="photo/instagram.png" alt="!!!" class="img2"></a>
+                <a href="https://www.youtube.com/channel/UCRw2rFa-9RhCg7Mq1q4Q7Sg?view_as=subscriber" target="_blank"><img src="photo/youtube.png" alt="!!!" class="img3"></a>
+                <a href="https://www.linkedin.com/company/bh-bank" target="_blank"><img src="photo/linkedin.png" class="img4" alt="!!!"></a> 
+            </div>
+            </div>
+        </footer>
+    </div>        
+</body>
+</html>

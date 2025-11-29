@@ -1,0 +1,415 @@
+body .container{
+    border: 1px solid black;
+    height: 1000px;
+    width: 900px;
+    margin:10px 200px;
+
+}
+header .head{
+    text-transform: uppercase;
+    font-weight:bolder;
+    color:darkblue;
+    margin:40px 10px 10px 600px;
+    font-size:larger;
+}
+.div-1{
+    border:2px darkgray solid;
+    font-weight: bold;
+    background-color:darkgray;
+    border-radius: 15px;
+    width: 400px;
+    padding:15px ;
+    margin: 50px 40px;
+    height: 45px;
+}
+.carreau-1{
+    border-bottom: 2px solid darkblue;
+    border-left:2px solid darkblue ;
+    border-right: 2px solid darkblue;
+    width: 330px;
+    height: 40px;
+    position: absolute;
+    top:140px;
+    left:340px;
+}
+.c-1,.c-2,.c-3,.c-4,.c-5,.c-6,.c-7,.c-8,.c-9,.c-10,.c-11,.c-12,.c-13{
+    border-left: 1px solid darkblue; 
+    border-bottom: 1px solid darkblue; 
+    border-right: 1px solid darkblue; 
+    width:16px;
+    position: absolute;
+    top:155px ;
+    height: 15px;
+}
+.c-1{
+    left: 355px;
+}
+.c-2{
+    left: 375px;
+}
+.c-3{
+    left: 395px;
+}
+.c-4{
+    left: 430px;
+}
+.c-5{
+    left: 450px;
+}
+.c-6{
+    left:470px;
+}
+.c-7{
+    left: 490px;
+} 
+.c-8{
+    left: 525px;
+}
+.c-9{
+    left:545px ;
+}
+.c-10{
+    left: 565px;
+}
+.c-11{
+    left: 585px;
+}
+.c-12{
+    left: 605px;
+}
+.c-13{
+    left: 640px;
+}
+.form-1{
+    color: black;
+    position: absolute;
+    top: 230px;
+}
+.l1{
+    color: black;
+    position: absolute;
+    top: 7px;
+    left: 40px;
+}
+.l2{
+    position: absolute;
+    top:38px ;
+    left:60px ;
+}
+.l3{
+    position: absolute;
+    top:70px ;
+    left: 75px;
+}
+.form-2{
+    position: absolute;
+    left: 700px;
+    top: 260px;
+}
+.l4{
+    position: absolute;
+    top: 7px;
+    left: 50px;
+}
+.l5{
+    position: absolute;
+    left:90px ;
+    top: 40px;
+}
+.hr{
+    border-bottom: 2px solid blue;
+    position:relative;
+    top: 200px;
+    height: 2px;
+    width: 692px;
+}
+.form-3{
+    position: absolute;
+    top: 395px;
+}
+.l6{
+    position: absolute;
+    top: 2px;
+    left:140px;
+}
+.c-g{
+    border: 1px solid darkgray;
+    width: 500px;
+    height: 120px;
+    position: absolute;
+    background-color: darkgray;
+    top: 450px;
+    left:400px;
+    border-radius: 20px;
+}
+.form-4{
+    position: absolute;
+    top: 620px;
+}
+.l7{
+    position: absolute;
+    top: 10px;
+    left: 120px;
+}
+.l8{
+    position: absolute;
+    top: 40px;
+    left: 70px;
+}
+.form-5{
+    position: absolute;
+    top: 37px;
+    right: -295px;
+}
+#l9{
+    position: absolute  ;
+    top: -1px;
+    left: 40px;
+}
+.form-6{
+    position: absolute;
+    top: 720px;
+    right: 350px;
+}
+.c-g2{
+    border: 1px solid darkgray;
+    width: 350px;
+    height: 100px;
+    position: absolute;
+    background-color: darkgray;
+    border-radius: 20px;
+    top: 760px;
+    right: 300px;
+}
+.carre-red{
+    border: 1px red solid;
+    position: relative;
+    top: 749px;
+    width: 900px;
+    height: 80px;
+    background-color:red;
+    left: -58px;
+}
+.para-one{
+    position: absolute;
+    top: 940px;
+    font-size: 12px;
+    color: aliceblue;
+}
+.para-two{
+    position: absolute;
+    top: 940px;
+    font-size: 12px;
+    color: aliceblue;
+    left: 600px;
+}
+.para-three{
+    position: absolute;
+    top: 930px;
+    right:250px;
+    color: aliceblue;
+}
+.container-2{
+    border: 1px solid black;
+    position:absolute;
+    top:1090px;
+    width: 900px;
+    height: 900px;
+    right: 240px;
+}
+.carre-vide{
+    border: 1px solid black;
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    top: 40px;
+    left: 700px;
+}
+.option{
+    position: absolute;
+    top: 30px;
+    left:500px ;
+}
+.main-border{
+    border: 1px solid darkblue;
+    border-radius: 20px;
+    width: 800px;
+    height: 700px;
+    position: absolute;
+    left: 40px;
+    top: 90px;
+}
+.s-1{
+    position: absolute;
+    left: 50px; 
+    top: 20px;
+}
+.s-2{
+    position: absolute;
+    left: 370px;
+}
+.s-3{
+    position: absolute;
+    top: 20px;
+    left: 700px;
+}
+#border{
+    border-bottom: 1px solid black;
+    position: relative;
+    top: 170px;
+    width: 800px;
+    left: 40px;
+}
+.s-4{
+    position: relative;
+    top:1030px;
+    left: 37px;
+}
+.s-5{
+    position: relative;
+    top: 1030px;
+    left: 350px;
+}
+#border-2{
+    border-bottom: 1px solid black;
+    position: relative;
+    top: 1060px;    
+    width: 800px;
+    left: -16px;
+}
+.s-6{
+    position:absolute;
+    top: 1380px;
+    left: 300px;
+}
+.s-8{
+    position: absolute;
+    top:1420px ;
+    left: 300px;
+}
+
+.l10{
+    position: absolute;
+    top: 1377px;
+    right: 420px;
+}
+.s-7{
+    position: absolute;
+    top:1380px ;
+    right:330px ;
+    direction:rtl;
+}
+.l11{
+    position: absolute;
+    top: 1417px;
+     right: 450px;
+}
+.s-9{
+    position: absolute;
+    top: 1420px;
+    left: 906px;
+    direction: rtl;
+}
+.s-10{
+    position: absolute;
+    top: 1460px;
+    margin: 46px;
+    left: 253px;
+}
+.l12{
+    position: absolute;
+    top:1506px ;
+    left: 370px;
+}
+.s-11{
+    position: absolute;
+    top: 1508px;
+    direction: rtl;
+    right: 329px;
+}
+.s-12{
+    position: absolute;
+    top: 1555px;
+    left: 295px;
+
+}
+.l13{
+    position: absolute;
+    top: 1555px;
+    left: 368px;
+}
+.l9{
+    position: absolute;
+    top: 1455px;
+}
+.s-13{
+    position: absolute;
+    top: 1557px;
+    direction: rtl;
+    left: 975px;
+}
+.fieldset{
+    position: absolute;
+    top: 1600px;
+    width: 740px;
+    left: 280px;
+}
+.border_10{
+    border: 1px solid black;
+    position: absolute;
+    top: 1720px;
+    width: 800px;
+    right: 300px;
+}
+.conjoint{
+    position: absolute;
+    top: 1400px;
+    top: auto;
+}
+.carre-red-2{
+    border: 1px red solid;
+    position: relative;
+    top: 1628px;
+    width: 900px;
+    height: 80px;
+    background-color:red;
+    left: -58px;
+}
+.para-four{
+    position: absolute;
+    top: 1930px;
+    font-size: 12px;
+    color: aliceblue;
+}
+.para-five{
+    position: absolute;
+    top: 1930px;
+    font-size: 12px;
+    color: aliceblue;
+    left: 600px;
+}
+.para-sex{
+    position: absolute;
+    top: 1930px;
+    right:250px;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

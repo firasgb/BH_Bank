@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ed 100%);
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+.scroll {
+  width: 50px;
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.scroll a img {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.scroll a img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(226, 0, 42, 0.4);
+}
+.header-container {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.logo {
+  max-width: 300px;
+  height: auto;
+  filter: brightness(0) invert(1);
+}
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  padding: 40px 20px;
+}
+.login-card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  padding: 40px;
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+  border: 2px solid #e2002a;
+}
+.login-card::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 30px;
+  height: 30px;
+  background: #e2002a;
+  border-radius: 6px;
+  z-index: 2;
+}
+.login-title {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.login-subtitle {
+  text-align: center;
+  color: #e2002a;
+  font-size: 18px;
+  background: #f8f9fa;
+  padding: 8px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #2c3e50;
+}
+.form-input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.form-input:focus {
+  outline: none;
+  border-color: #e2002a;
+  box-shadow: 0 0 0 3px rgba(226, 0, 42, 0.1);
+}
+.button-group {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+.btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  flex: 1;
+  text-decoration: none;
+  text-align: center;
+}
+.btn-primary {
+  background: #e2002a;
+  color: white;
+}
+.btn-primary:hover {
+  background: #c10024;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(226, 0, 42, 0.3);
+}
+.btn-secondary {
+  background: #6c757d;
+  color: white;
+}
+.btn-secondary:hover {
+  background: #5a6268;
+  transform: translateY(-2px);
+}
+.btn-exit {
+  background: #17a2b8;
+  color: white;
+}
+.btn-exit:hover {
+  background: #138496;
+  transform: translateY(-2px);
+}
+.security-container {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  margin: 40px auto;
+  max-width: 900px;
+  position: relative;
+  border: 2px solid #e2002a;
+}
+.security-container::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 30px;
+  height: 30px;
+  background: #e2002a;
+  border-radius: 6px;
+  z-index: 2;
+}
+.security-title {
+  color: #e2002a;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.security-content {
+  line-height: 1.8;
+  color: #2c3e50;
+}
+.security-content p {
+  margin-bottom: 15px;
+}
+.footer {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  color: white;
+  padding: 25px 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+.footer a {
+  color: #e2002a;
+  text-decoration: none;
+  font-weight: 600;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .login-card,
+  .security-container {
+    padding: 30px 20px;
+    margin: 20px;
+  }
+  .button-group {
+    flex-direction: column;
+  }
+  .scroll {
+    position: relative;
+    top: auto;
+    right: auto;
+    transform: none;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+  }
+}
+@media (max-width: 480px) {
+  .login-title {
+    font-size: 24px;
+  }
+  .login-subtitle {
+    font-size: 16px;
+  }
+  .security-title {
+    font-size: 20px;
+  }
+}

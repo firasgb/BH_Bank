@@ -1,0 +1,40 @@
+.head{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    
+}
+.table-1{
+    width: 90%;
+    border: 1px black solid;
+    padding:40px;
+}
+.page-one{
+    text-align: center;
+}
+.body .table-1{
+    margin: auto;
+    margin-bottom: 10px;
+}
+body .table-2{
+    width:800px;
+    border: 1px black solid;
+    padding:20px 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+body .paragraphe{
+  padding:50px;
+}
+body .signature{
+    font-weight: bold;
+}
+body .page-two{
+    margin: auto 10px;
+    text-align: center;
+}
+body .border{
+
+}

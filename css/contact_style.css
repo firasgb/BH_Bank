@@ -1,0 +1,57 @@
+.main-container {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  height: 1380px;
+  position: relative;
+}
+body {
+  background-color: gainsboro;
+}
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+@keyframes colors {
+  25% {
+    color: rgb(6, 185, 255);
+  }
+  50% {
+    color: rgb(255, 251, 0);
+  }
+  75% {
+    color: rgb(255, 0, 221);
+  }
+  100% {
+    color: black;
+  }
+}
+body .cadre-1 {
+  line-height: 50px;
+  position: absolute;
+  left: 40px;
+  top: 400px;
+  z-index: 1;
+}
+body #l1,
+#l2,
+#l3,
+#l4,
+#l5,
+#l6,
+#l7,
+#l8,
+#l9 {
+  position: absolute;
+  left: 200px;
+  border-color: aqua;
+  height: 30px;
+}
+body .cadre {
+  color: red;
+  font: 40px bolder;
+  position: absolute;
+  top: 270px;
+  left: 450px;
+  border-bottom: 1px solid black;
+  text-shadow: 4px 4px gray;
+}

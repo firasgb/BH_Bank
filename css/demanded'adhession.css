@@ -1,0 +1,613 @@
+body .container{
+    border: 1px solid black;
+    height:1235px;
+}
+body header img{
+    width: 200px;
+}
+body header .agence{
+    position: absolute;
+    top: 70px;
+    left: 990px;
+}
+body header .l1{
+     position: absolute;
+     top: 70px;
+     left:1050px;
+}
+body header .titre{
+    text-transform: uppercase;
+    position: absolute;
+    top: 135px;
+    left: 285px;
+    font-weight: bolder;
+    font-size: 27px;
+}
+body .n1{
+    position: absolute;
+    top: 200px;
+    left: 30px;
+}
+body .n2{
+    position: absolute;
+    top: 225px;
+    left: 30px;
+}
+#n2{
+    position: relative;
+    top: 95px;
+    left: 190px;
+}
+body .n3{
+    position: absolute;
+    top:225px ;
+    left: 800px;
+}
+#n3{
+    position: absolute;
+    top:225px ;
+    left:870px ;
+}
+body .n4{
+    position: absolute;
+    top: 250px;
+    left: 30px;
+}
+#n4{
+    position: absolute;
+    top: 250px;
+    left:87px;
+}
+body .n5{
+    position: absolute;
+    top:275px ;
+    left: 30px;
+}
+#n5{
+    position: absolute;
+    top:275px ;
+    left: 159px;
+}
+body .n6{
+    position: absolute;
+    top: 300px;
+    left: 30px;
+}
+#n6{
+    position: absolute;
+    top: 300px;
+    left: 80px;
+}
+body .n7{
+    position: absolute;
+    top: 325px;
+    left: 30px;
+}
+#n7{
+    position: absolute;
+    top: 325px;
+    left:110px;
+}
+body .n8{
+    position: absolute;
+    top: 350px;
+    left: 30px;
+}
+#n8{
+    position: absolute;
+    top: 350px;
+    left: 174px;
+}
+body .n9{
+    position: absolute;
+    top: 375px;
+    left: 30px;
+}
+#n9{
+    position: absolute;
+    top: 375px;
+    left:135px;
+}
+body .n10{
+    position: absolute;
+    top: 400px;
+    left: 30px;
+}
+#n10{
+    position: absolute;
+    top: 400px;
+    left:90px;
+}
+body .liste{
+    position: absolute;
+    top: 650px;
+    left: 40px;
+}
+.select h4{
+    position: absolute;
+    top: 430px;
+    left: 30px;
+    text-transform: uppercase;
+}
+.select .carre-1{
+    position: absolute;
+    top: 540px;
+    left: 510px;
+}
+.select #carre-1{
+    border: 1px solid black;
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid aliceblue;
+    position: absolute;
+    top: 543px;
+    left: 860px;
+}
+.select .carre-2{
+    position: absolute;
+    top: 540px;
+    left: 900px;
+}
+.select #carre-2{
+    border: 1px solid black;
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid aliceblue;
+    position: absolute;
+    top: 543px;
+    right: 410px;
+}
+.select h5{
+    position: absolute;
+    top: 560px;
+    left: 30px;
+}
+.select .liste-2{
+    position: absolute;
+    top: 590px;
+    left: 35px;
+}
+.select .carre-3{
+    position: absolute;
+    top: 605px;
+    left: 480px;
+}
+.select #carre-3{
+    border: 1px solid black;
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid white;
+    position: absolute;
+    top: 607px;
+    left: 460px;
+}
+.select .carre-5{
+    position: absolute;
+    top: 635px;
+    left: 480px;
+}
+.select #carre-5{
+    border: 1px solid black;
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid white;
+    position: absolute;
+    top: 640px;
+    left: 460px;
+}
+.select .carre-4{
+    position: absolute;
+    top: 606px;
+    left: 650px;
+}
+.select #carre-4{
+    border: 1px solid black;
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid white;
+    position: absolute;
+    top: 608px;
+    left: 630px;
+}
+.select .carre-6{
+    position: absolute;
+    top: 635px;
+    left: 650px;
+}
+.select #carre-6{
+    border: 1px solid black;
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid white;
+    position: absolute;
+    top: 640px;
+    left: 630px;
+}
+body .liste{
+    position: absolute;
+    top: 460px;
+    left: 40px;
+}
+.acces h4{
+    position: absolute;
+    top: 430px;
+    left: 30px;
+    text-transform: uppercase;
+}
+.acces .carre-1{
+    position: absolute;
+    top: 540px;
+    left: 510px;
+}
+.acces #carre-1{
+    border: 1px solid black;
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid aliceblue;
+    position: absolute;
+    top: 543px;
+    right: 869px;
+}
+.acces .carre-2{
+    position: absolute;
+    top: 540px;
+    left: 890px;
+}
+.acces #carre-2{
+    border: 1px solid black;
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid aliceblue;
+    position: absolute;
+    top: 543px;
+    right: 485px;
+}
+.acces h5{
+    position: absolute;
+    top: 560px;
+    left: 30px;
+}
+.acces .liste-2{
+    position: absolute;
+    top: 590px;
+    left: 35px;
+}
+.acces .carre-3{
+    position: absolute;
+    top: 605px;
+    left: 480px;
+}
+.acces #carre-3{
+    border: 1px solid black;
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid white;
+    position: absolute;
+    top: 607px;
+    left: 460px;
+}
+.acces .carre-5{
+    position: absolute;
+    top: 635px;
+    left: 480px;
+}
+.acces #carre-5{
+    border: 1px solid black;
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid white;
+    position: absolute;
+    top: 640px;
+    left: 460px;
+}
+.acces .carre-4{
+    position: absolute;
+    top: 606px;
+    left: 650px;
+}
+.acces #carre-4{
+    border: 1px solid black;
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid white;
+    position: absolute;
+    top: 608px;
+    left: 630px;
+}
+.acces .carre-6{
+    position: absolute;
+    top: 635px;
+    left: 650px;
+}
+.acces #carre-6{
+    border: 1px solid black;
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid white;
+    position: absolute;
+    top: 640px;
+    left: 630px;
+}
+.select{
+    position: absolute;
+    top: 300px;
+    width: 900px;
+    left: -10px;
+}
+body .p1{
+    position: absolute;
+    top: 990px;
+    left: 30px;
+    font-weight: bold;
+}
+body .p2{
+    position: absolute;
+    top: 1020px;
+    left: 47px;
+}
+body .vide-1{
+    border: 1px solid black;
+    width: 120px;
+    height: 15px;
+    border-top: 1px solid aliceblue;
+    position: absolute;
+    top: 1035px;
+    left: 400px;
+}
+body .vide-2,.vide-3,.vide-4,.vide-5,.vide-6,.vide-7,.vide-8,.vide-9{
+    border: 1px solid black ;
+    width: 15px;
+    height: 15px;
+    border-top: 1px solid aliceblue;
+    top: 1035px;
+    position: absolute;
+}
+body .vide-2{
+    left: 400px;
+}
+body .vide-3{
+    left: 415px;
+}
+body .vide-4{
+    left: 430px;
+}
+body .vide-5{
+    left:445px;
+}
+body .vide-6{
+    left: 460px;
+}
+body .vide-7{
+    left: 475px;
+}
+body .vide-8{
+    left:490px ;
+}
+body .vide-9{
+    left: 505px;
+}
+body #vide-2,#vide-3,#vide-4,#vide-5,#vide-6,#vide-7,#vide-8,#vide-9,#vide-10,#vide-11,#vide-12,#vide-13{
+    border: 1px solid black ;
+    width: 15px;
+    height: 15px;
+    border-top: 1px solid aliceblue;
+    top: 197px;
+    position: absolute;
+}
+body #vide-2{
+    left: 600px;
+}
+body #vide-3{
+    left: 585px;
+}
+body #vide-4{
+    left: 570px;
+}
+body #vide-5{
+    left:555px;
+}
+body #vide-6{
+    left: 540px;
+}
+body #vide-7{
+    left: 525px;
+}
+body #vide-8{
+    left:510px ;
+}
+body #vide-9{
+    left: 495px;
+}
+body #vide-10{
+    left: 478px;
+}
+body #vide-11{
+    left: 617px;
+}
+body #vide-12{
+    left: 632px;
+}
+body #vide-13{
+    left: 647px;
+}
+body .v-1,.v-2,.v-3,.v-4,.v-5{
+    border: 1px solid black ;
+    width: 15px;
+    height: 15px;
+    border-top: 1px solid aliceblue;
+    top: 1140px;
+    position: absolute;
+}
+body .v-6,.v-7{
+    border: 1px solid black ;
+    width: 15px;
+    height: 15px;
+    border-top: 1px solid aliceblue;
+    position: absolute; 
+    top:1180px ;   
+}
+body .v-1{
+    left: 450px;
+}
+body .v-2{
+    left: 520px;
+}
+body .v-3{
+    left: 590px;
+}
+body .v-4{
+    left: 660px;
+}
+body .v-5{
+    left:730px;
+}
+body .v-6{
+    left: 620px;
+}
+body .v-7{
+    left: 480px;
+}
+body .o,.n{
+    position: absolute;
+    top:1180px ;
+}
+body .o{
+    left: 510px;
+}
+body .n{
+    left: 650px;
+}
+body .l,.m,.me,.j,.v{
+    position: absolute;
+    top: 1110px;
+}
+body .l{
+    left: 430px;
+}
+body .m{
+    left:510px ;
+}
+body .me{
+    left: 570px;
+}
+body .j{
+    left: 650px;
+}
+body .v{
+    left: 710px;
+}
+body .page-1{
+    position: absolute;
+    top: 1220px;
+    left: 50%;
+}
+body .container-2{
+    position: absolute;
+    top:1300px;
+    width: 1330px;
+    height: 1920px;
+     border: 1px solid black;
+}
+body .container-2 .pg-1{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+body .container-2 .pg-2{
+    position: absolute;
+    top: 300px;
+    left: 30px;
+}
+body .container .pg-2 .v-o,.v-n{
+    border: 1px black solid ;
+    border-top: 1px solid aliceblue;
+    position: absolute;
+    top: 143px;
+    width: 10px;
+    height: 10px;
+}
+body .container .pg-2 .v-o{
+    left: 280px ;
+}
+body .container .pg-2 .v-n{
+    left: 479px;
+}
+body .container .pg-2 .oui,.non{
+     position: absolute;
+     top: 140px;
+}
+body .container .pg-2 .oui{
+     left: 300px;
+}
+body .container .pg-2 .non{
+    left: 500px;
+}
+body .container .pg-3{
+    position: absolute;
+    top: 460px;
+    left: 30px;
+} 
+body .container-2 .border{
+    border: 1px solid black;
+    width: 400px;
+    padding: 20px;
+    padding-left: 100px;
+    border-radius: 50px;
+    position: absolute;
+    top: 610px;
+    left: 30px;
+}
+body .container-2 .border .titre{
+    position: absolute;
+    left: 160px;
+    font-weight: bold;
+}
+body .container-2 .signature{
+    position: absolute;
+    top: 640px;
+    left: 720px;
+}
+body .container-2 h1{
+    font-weight: bolder;
+    position: absolute;
+    top: 770px;
+    left: 110px;
+    text-transform: uppercase;  
+}
+body .container-2 .colone-1{
+        width: 45%;
+    position: absolute;
+    top: 840px;
+    font-size: 13px;
+    left: 20px;
+}
+body .page-2{
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+}
+body .colone-2{
+    width: 50%;
+    left: 664px;
+    height: 1050px;
+    position: absolute;
+    top: 860px;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

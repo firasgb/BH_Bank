@@ -1,0 +1,49 @@
+body header h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+}
+body header .titre{
+    position: absolute;
+    top: 70px;
+    right: 110px;
+}
+body p{
+    left: 30px;
+    position: absolute;
+}
+body .liste{
+    position: absolute;
+    top: 500px;
+    left: 60px;
+}
+body .n{
+    position: absolute;
+    top: 555px;
+    left: 210px;
+}
+body h2{
+    position: absolute;
+    top: 580px;
+    left: 470px;
+}
+body .colone-1{
+    position: absolute;
+    top: 680px;
+    left: 200px;
+}
+body .colone-2{
+    position: absolute;
+    top: 679px;
+    left: 750px;
+}
+body .colone-2 p{
+    position: absolute;
+    top: 110px;
+    left: -690px;
+}
+body .page-2{
+    position: absolute;
+    bottom: -350px;
+    left: 50%&²;
+}

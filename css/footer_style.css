@@ -1,0 +1,172 @@
+/*begin footer*/
+body .foot {
+  height: 400px;
+  width: 1200px;
+  position: absolute;
+  bottom: -15px;
+  background-image: repeating-linear-gradient(rgb(6, 6, 25), rgb(6, 6, 70));
+}
+body .lblanc-1,
+.lblanc-2 {
+  border-right: 1px solid white;
+  height: 280px;
+  position: absolute;
+  top: 20px;
+  left: 380px;
+  bottom: 40px;
+  color: red;
+}
+body .lblanc-2 {
+  left: 780px;
+}
+body .tr-1 {
+  color: red;
+  font-weight: bolder;
+  font-size: 20px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 40px;
+  left: 810px;
+}
+body .pr-1 {
+  color: white;
+  position: absolute;
+  top: 70px;
+  left: 810px;
+  line-height: 30px;
+}
+body .tr-2 {
+  color: red;
+  font-weight: bolder;
+  font-size: 20px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 190px;
+  left: 810px;
+}
+body .pr-2 {
+  color: white;
+  position: absolute;
+  top: 220px;
+  left: 810px;
+  line-height: 30px;
+}
+body .tr-3 {
+  position: absolute;
+  color: red;
+  left: 400px;
+  top: 40px;
+  font-size: 22px;
+  font-weight: bolder;
+}
+body .pr-3 {
+  position: absolute;
+  top: 80px;
+  left: 400px;
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+}
+body .tr-4 {
+  position: absolute;
+  top: 180px;
+  left: 400px;
+  color: red;
+  font-weight: BOLDER;
+  font-size: 22px;
+}
+body .pr-4 {
+  position: absolute;
+  left: 400px;
+  top: 220px;
+  font-size: 18px;
+  letter-spacing: 15px;
+  text-decoration: underline;
+  line-height: 30px;
+}
+body .tr-5 {
+  color: red;
+  position: absolute;
+  top: 35px;
+  left: 30px;
+  font-size: 23px;
+  font-weight: bolder;
+}
+body .pr-5 {
+  position: absolute;
+  top: 90px;
+  width: 300px;
+  line-height: 40px;
+  text-transform: uppercase;
+  animation-name: color;
+  animation-duration: 5s;
+}
+body .pr-5 a {
+  text-decoration: none;
+  position: absolute;
+  left: 30px;
+  font-size: 14px;
+  animation-name: colors;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+body footer .social-media {
+  position: absolute;
+  bottom: 10px;
+  height: 70px;
+  width: 200px;
+  left: 480px;
+}
+body .social-media .img1 {
+  position: absolute;
+  top: 35px;
+  width: 20px;
+  left: 15px;
+  border-radius: 5px;
+}
+body .img1:hover {
+  width: 24px;
+  height: 24px;
+}
+body .social-media .img2 {
+  left: 60px;
+  position: absolute;
+  top: 35px;
+  width: 20px;
+  border-radius: 5px;
+}
+body .img2:hover {
+  width: 24px;
+  height: 24px;
+}
+body .social-media .img3 {
+  left: 105px;
+  position: absolute;
+  top: 37px;
+  width: 22px;
+  border-radius: 5px;
+  height: 17px;
+}
+body .img3:hover {
+  width: 24px;
+  height: 24px;
+}
+body .social-media .img4 {
+  left: 150px;
+  position: absolute;
+  top: 34px;
+  border-radius: 5px;
+  width: 20px;
+}
+body .img4:hover {
+  width: 24px;
+  height: 24px;
+}
+body .social-media .copy {
+  font-size: 14px;
+  position: absolute;
+  left: 5px;
+  top: 11px;
+  color: white;
+}
