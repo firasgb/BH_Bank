@@ -2,7 +2,7 @@
   width: 1200px;
   margin: 0 auto;
   background-color: white;
-  height: 1380px;
+  height: 1540px;
   position: relative;
 }
 body {
@@ -54,4 +54,119 @@ body .cadre {
   left: 450px;
   border-bottom: 1px solid black;
   text-shadow: 4px 4px gray;
+}
+/* ===== SOCIAL MEDIA SIDEBAR ===== */
+.scroll {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.scroll a img {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.scroll a img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(226, 0, 42, 0.4);
+}
+
+/* Titre du formulaire */
+.cadre {
+  z-index: 1;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Conteneur principal */
+.cadre-1 {
+  padding: 20px;
+  font-size: 18px;
+}
+
+/* Astérisque obligatoire */
+.red {
+  color: red;
+}
+
+/* Champs input et select */
+.cadre-1 input,
+.cadre-1 select,
+.cadre-1 textarea {
+  width: 350px;
+  height: 35px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  border-radius: 6px;
+  border: 1px solid #888;
+}
+
+/* Zone de texte */
+textarea {
+  height: auto;
+}
+
+/* Bouton Envoyer */
+.btn-submit {
+  height: 45px;
+  width: 400px;
+  border-radius: 12px;
+  border: none;
+  background: linear-gradient(90deg, #0c4da2, #0856a0);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.btn-submit:hover {
+  background: linear-gradient(90deg, #0856a0, #0c4da2);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Bouton Reset */
+.btn-reset {
+  height: 45px;
+  width: 150px;
+  border-radius: 12px;
+  border: none;
+  background: #f44336;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.btn-reset:hover {
+  background: #d32f2f;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+.modern-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #222;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
 }

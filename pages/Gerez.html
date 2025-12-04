@@ -1,80 +1,144 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Connexion - BH Bank</title>
-    <link rel="stylesheet" href="styles/gerez_style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../css/gerez_style.css" />
+  </head>
+  <body>
+    <!-- Barre latérale réseaux sociaux -->
     <div class="scroll">
-        <a href="https://www.facebook.com/BHBank" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="Facebook">
-        </a>
-        <a href="https://www.instagram.com/bh_bank/" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram">
-        </a>
-        <a href="https://www.linkedin.com/company/bh-bank" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
-        </a>
-        <a href="https://www.youtube.com/channel/UCRw2rFa-9RhCg7Mq1q4Q7Sg?view_as=subscriber" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/174/174883.png" alt="YouTube">
-        </a>
+      <a href="https://www.facebook.com/BHBank" target="_blank">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/733/733547.png"
+          alt="Facebook BH Bank"
+        />
+      </a>
+      <a href="https://www.instagram.com/bh_bank/" target="_blank">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
+          alt="Instagram BH Bank"
+        />
+      </a>
+      <a href="https://www.linkedin.com/company/bh-bank" target="_blank">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png"
+          alt="LinkedIn BH Bank"
+        />
+      </a>
+      <a
+        href="https://www.youtube.com/channel/UCRw2rFa-9RhCg7Mq1q4Q7Sg?view_as=subscriber"
+        target="_blank"
+      >
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/733/733646.png"
+          alt="YouTube BH Bank"
+        />
+      </a>
     </div>
 
     <header class="header-container">
-        <img src="../photo/logo.png" alt="BH Bank" class="logo">
+      <img
+        src="../images/logo.png"
+        alt="BH Bank"
+        class="logo"
+      />
     </header>
 
     <main>
-        <section class="login-container">
-            <div class="login-card">
-                <h1 class="login-title">Accès à BHnet</h1>
-                <div class="login-subtitle">Authentification par Login & mot de passe</div>
-                
-                <form>
-                    <div class="form-group">
-                        <label for="log" class="form-label">Login:</label>
-                        <input type="email" id="log" class="form-input" required placeholder="Votre adresse email">
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="mot" class="form-label">Mot de passe:</label>
-                        <input type="password" id="mot" class="form-input" required placeholder="Votre mot de passe">
-                    </div>
-                    
-                    <div class="button-group">
-                        <button type="submit" class="btn btn-primary">Valider</button>
-                        <button type="reset" class="btn btn-secondary">Réinitialiser</button>
-                        <a href="index-1.html" class="btn btn-exit">Exit</a>
-                    </div>
-                </form>
-            </div>
-        </section>
+      <section class="login-container">
+        <div class="login-card">
+          <h1 class="login-title">Accès à BHnet</h1>
+          <div class="login-subtitle">
+            Authentification par Login & mot de passe
+          </div>
 
-        <section class="security-container">
-            <h2 class="security-title">La Sécurité de BHnet</h2>
-            <div class="security-content">
-                <p>La solution de sécurité proposée par BHnet est une solution complète aux normes les plus élevées.</p>
-                <p>Afin de répondre aux exigences de sécurité croissantes sur Internet, BHnet met constamment en œuvre des mesures de sécurité optimales pour vos opérations bancaires.</p>
-                
-                <h3 style="color: #e2002a; margin: 20px 0 10px;">Cryptage</h3>
-                <p>Le système crypte automatiquement toutes les données transmises par Internet. Il a recours à des algorithmes d'un niveau de sécurité très élevé, qui protègent également vos données contre les attaques de pirates professionnels.</p>
-                
-                <p>SSL (secure socket layer) est un protocole très sûr contrôlé et approuvé. Il est utilisé dans le cadre de BHnet pour sécuriser toutes les transactions. Aucun logiciel de cryptage supplémentaire n'est donc nécessaire.</p>
-                
-                <h3 style="color: #e2002a; margin: 20px 0 10px;">Certificat numérique serveur</h3>
-                
-                <h3 style="color: #e2002a; margin: 20px 0 10px;">Certificat numérique client</h3>
-                <p>Un certificat numérique client est en quelque sorte votre pièce d'identité électronique. Il est donc strictement associé à son porteur, et vous permet d'établir un environnement maximum de confiance avec le serveur BHnet.</p>
+          <form>
+            <div class="form-group">
+              <label for="log" class="form-label">Login:</label>
+              <input
+                type="email"
+                id="log"
+                class="form-input"
+                required
+                placeholder="Votre adresse email"
+              />
             </div>
-        </section>
+
+            <div class="form-group">
+              <label for="mot" class="form-label">Mot de passe:</label>
+              <input
+                type="password"
+                id="mot"
+                class="form-input"
+                required
+                placeholder="Votre mot de passe"
+              />
+            </div>
+
+            <div class="button-group">
+              <button type="submit" class="btn btn-primary">Valider</button>
+              <button type="reset" class="btn btn-secondary">
+                Réinitialiser
+              </button>
+              <a href="../index.html" class="btn btn-exit">Exit</a>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="security-container">
+        <h2 class="security-title">La Sécurité de BHnet</h2>
+        <div class="security-content">
+          <p>
+            La solution de sécurité proposée par BHnet est une solution complète
+            aux normes les plus élevées.
+          </p>
+          <p>
+            Afin de répondre aux exigences de sécurité croissantes sur Internet,
+            BHnet met constamment en œuvre des mesures de sécurité optimales
+            pour vos opérations bancaires.
+          </p>
+
+          <h3>Cryptage</h3>
+          <p>
+            Le système crypte automatiquement toutes les données transmises par
+            Internet. Il a recours à des algorithmes d'un niveau de sécurité
+            très élevé, qui protègent également vos données contre les attaques
+            de pirates professionnels.
+          </p>
+
+          <p>
+            SSL (secure socket layer) est un protocole très sûr contrôlé et
+            approuvé. Il est utilisé dans le cadre de BHnet pour sécuriser
+            toutes les transactions. Aucun logiciel de cryptage supplémentaire
+            n'est donc nécessaire.
+          </p>
+
+          <h3 >
+            Certificat numérique serveur
+          </h3>
+
+          <h3 >
+            Certificat numérique client
+          </h3>
+          <p>
+            Un certificat numérique client est en quelque sorte votre pièce
+            d'identité électronique. Il est donc strictement associé à son
+            porteur, et vous permet d'établir un environnement maximum de
+            confiance avec le serveur BHnet.
+          </p>
+        </div>
+      </section>
     </main>
     <footer class="footer">
-        <div class="footer-content">
-            18 AVENUE MOHAMED V - TUNIS - Tel : (+216) 71 126 000 - BHTEL: 88 40 14 21 <br>
-            Centre de contact : 1800 - e-mail : <a href="mailto:contact@bhbank.tn">contact@bhbank.tn</a>
-        </div>
+      <div class="footer-content">
+        18 AVENUE MOHAMED V - TUNIS - Tel : (+216) 71 126 000 - BHTEL: 88 40 14
+        21 <br />
+        Centre de contact : 1800 - e-mail :
+        <a href="mailto:contact@bhbank.tn">contact@bhbank.tn</a>
+      </div>
     </footer>
-</body>
+  </body>
 </html>

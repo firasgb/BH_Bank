@@ -10,13 +10,13 @@ body {
   position: relative;
   overflow-x: hidden;
 }
+/* ===== SOCIAL MEDIA SIDEBAR ===== */
 .scroll {
-  width: 50px;
   position: fixed;
   top: 50%;
   right: 20px;
   transform: translateY(-50%);
-  z-index: 100;
+  z-index: 1000;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -31,6 +31,10 @@ body {
 .scroll a img:hover {
   transform: scale(1.1);
   box-shadow: 0 4px 12px rgba(226, 0, 42, 0.4);
+}
+.h3{
+  color: #e2002a; 
+  margin: 20px 0 10px
 }
 .header-container {
   background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);

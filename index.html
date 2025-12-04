@@ -1,204 +1,479 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/index-1.css">
-    <link rel="stylesheet" href="styles/header_style.css">
-    <link rel="stylesheet" href="styles/footer_style.css">
-
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/header_style.css" />
+    <link rel="stylesheet" href="css/index-1.css" />
+    <link rel="stylesheet" href="css/footer_style.css" />
     <title>BH | BANK</title>
-</head>
-<body>
-    <div class="scroll" style="width: 40px;height: 150px;position:fixed;top: 250px;right: 5px;z-index: 2;">
-        <a href="https://www.facebook.com/BHBank" target="_blank"><img src="photo/facebook.png" alt=""  style="border-radius: 10px;height:25px;width: 40px;"></a>
-        <a href="https://www.instagram.com/bh_bank/" target="_blank"><img src="photo/instagram.png" alt="" style="border-radius: 10px;height:25px;width: 40px;"></a>
-        <a href="https://www.linkedin.com/company/bh-bank" target="_blank"><img src="photo/linkedin.png" alt="" style="border-radius: 10px;height:25px;width: 40px;"></a>
-        <a href="https://www.youtube.com/channel/UCRw2rFa-9RhCg7Mq1q4Q7Sg?view_as=subscriber" target="_blank"><img src="photo/youtube.png" alt="" style="border-radius: 10px;height:25px;width: 40px;"></a>
+  </head>
+  <body>
+    <div class="scroll">
+      <a href="https://www.facebook.com/BHBank" target="_blank"
+        ><img
+          src="https://cdn-icons-png.flaticon.com/512/124/124010.png"
+          alt="Facebook"
+      /></a>
+      <a href="https://www.instagram.com/bh_bank/" target="_blank"
+        ><img
+          src="https://cdn-icons-png.flaticon.com/512/174/174855.png"
+          alt="Instagram"
+      /></a>
+      <a href="https://www.linkedin.com/company/bh-bank" target="_blank"
+        ><img
+          src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+          alt="LinkedIn"
+      /></a>
+      <a
+        href="https://www.youtube.com/channel/UCRw2rFa-9RhCg7Mq1q4Q7Sg?view_as=subscriber"
+        target="_blank"
+        ><img
+          src="https://cdn-icons-png.flaticon.com/512/174/174883.png"
+          alt="YouTube"
+      /></a>
     </div>
     <div class="main-container">
-        <header>
-            <div class="header-top">
-                <div class="logo">
-                    <img src="photo/logo.png" alt="BH BANK">
-                </div>
-                <div class="search-container">
-                    <input type="search" placeholder="RECHERCHER...">
-                </div>
-                <a href="Gerez.html" class="account-access">Gérer vos comptes</a>
+      <header>
+        <div class="header-top">
+          <div class="logo">
+            <img src="images/logo.png" alt="BH BANK" />
+          </div>
+          <div class="search-container">
+            <input type="search" placeholder="RECHERCHER..." />
+          </div>
+          <a href="pages/Gerez.html" class="account-access"
+            >Gérer vos comptes</a
+          >
+        </div>
+        <nav>
+          <ul class="main-nav">
+            <li class="nav-item">
+              <a href="../Projet De Stage/index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">La banque</a>
+              <div class="dropdown">
+                <a href="pages/Presentation.html">Présentation</a>
+                <a href="pages/historique.html">Historique</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="#">Les cartes bancaires</a>
+              <div class="dropdown">
+                <a href="pages/LaCarteBHTechnologie.html"
+                  >La carte BH Technologie</a
+                >
+                <a href="pages/LesCartesVisaetMasterCardClassicNationales.html"
+                  >Les cartes Visa et MasterCard</a
+                >
+                <a href="pages/LaCarteBHGOLDNATIONALE.html"
+                  >La Carte BH Gold nationale</a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="#">Notre réseau</a>
+              <div class="dropdown">
+                <a href="pages/bizerte.html">Bizerte</a>
+                <a href="pages/Tunis.html">Tunis</a>
+                <a href="pages/sousse.html">Sousse</a>
+                <a href="pages/djerba.html">Djerba</a>
+                <a href="pages/sfax.html">Sfax</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="pages/recru.html">Recrutement</a>
+            </li>
+            <li class="nav-item">
+              <a href="pages/contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="slide"></div>
+        <!-- Services Bancaires -->
+        <section class="services-section">
+          <h2 class="services-title">NOS SERVICES BANCAIRES</h2>
+          <div class="services-grid">
+            <div class="service-card">
+              <div class="service-icon">
+                <img src="images/téléchargement.jfif" alt="Retrait" />
+              </div>
+              <h3 class="service-name">Retrait</h3>
+              <a href="pages/retrait.html" class="service-link"
+                >En savoir plus →</a
+              >
             </div>
-            
-            <nav>
-                <ul class="main-nav">
-                    <li class="nav-item">
-                        <a href="index-1.html">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">La banque</a>
-                        <div class="dropdown">
-                            <a href="Presentation.html">Présentation</a>
-                            <a href="historique.html">Historique</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Les cartes bancaires</a>
-                        <div class="dropdown">
-                            <a href="../index1/cartes%20bank/LaCarteBHTechnologie.html">La carte BH Technologie</a>
-                            <a href="../index1/cartes%20bank/LesCartesVisaetMasterCardClassicNationales.html">Les cartes Visa et MasterCard</a>
-                            <a href="../index1/cartes%20bank/LaCarteBHGOLDNATIONALE.html">La Carte BH Gold nationale</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Notre réseau</a>
-                        <div class="dropdown">
-                            <a href="../index1/point%20de%20vente/bizerte.html">Bizerte</a>
-                            <a href="../index1/point%20de%20vente/Tunis.html">Tunis</a>
-                            <a href="../index1/point%20de%20vente/sousse.html">Sousse</a>
-                            <a href="../index1/point%20de%20vente/djerba.html">Djerba</a>
-                            <a href="../index1/point%20de%20vente/sfax.html">Sfax</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a href="recru.html">Recrutement</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-            
-        </header>
-            <tbody>
-            <div class="slide"></div>
-            <div class="bl1">
-                <span class="bl-1"><a href="les demandes/retrait.html">retrait</a></span>
-                <img src="photo/téléchargement.jfif" alt="" style="width: 40px;position: absolute;left: 84px;top: 20px;">
-            </div>
-            <div class="bl2">
-                <span class="bl-2"><a href="les demandes/virement.html">ordre de virement</a></span>
-                <img src="photo/téléchargement.png" alt=""  style="width: 40px;position: absolute;left: 80px;top: 20px;">
-            </div>
-            <div class="bl3">
-                <span class="bl-3"><a href="les demandes/remise.html">remise de chéque</a></span>
-            <img src="photo/téléchargement (1).png" alt="" style="width: 40px;position: absolute;left: 80px;top: 20px;">
-            </div>
-            <div class="bl4">
-                <span class="bl-4"><a href="les demandes/versement.html">bulletin de versement en especes</a>
-                    <img src="photo/téléchargement (2).png" alt="" style="width: 40px;position: absolute;left: 80px;top: 20px;">
-                </span>
-            </div>
-            <div class="bl5">
-                <span class="bl-5"><a href="les demandes/cheque.html">demande de chéquier</a></span>
-                <img src="photo/téléchargement (1).jfif" alt="" style="width: 40px;position: absolute;left: 80px;top: 20px;">
-            </div>
-            <div class="der">DERNIÈRES ACTUALITÉS</div>
-            <div class="lr"></div>
-            <img src="photo/promoteurs-immobiliers.png" alt="" class="news-img">
-            <div class="cb">
-                <div class="der-1">
-                    <span class="tit-1">18éme Sommet de la Francophonie</span>
-                    <a href="../index1/derniere-act/sommet.html" class="tit1"> Sous l'édide de CBF Conseil Bancaire et Financier...</a>
-                </div>
-                <div class="der-2"> 
-                    <span class="tit-2">La Tunisie, Porte d'accès vers l'Afrique</span>
-                    <a href="../index1/derniere-act/acces-afrique.html" class="tit2">Elle abritera les 27 et 28 Aout 2022 à Tunis,la...</a>
-                </div>
-                <div class="der-3">
-                    <span class="tit-3">La BH BANK Sponsor Officiel La septiè...</span>
-                    <a href="../index1/derniere-act/sept.html" class="tit3">Forum International de la santé numérique...</a>
-                </div>
-            </div>
-            <div class="cc1">
-                <div class="dv">Devenir client</div>
-                <div class="cc3">
-                <img src="photo/tre.png" alt="!! img do not found">
-                <a href="d-client.html" class="cc2">En savoir plus</a>
-                </div>
-            </div>
-            <div class="cbl-1">
-                <video src="photo/Lhistoire de la BH Bank.mp4" controls ></video>
-            </div>
-            <div class="cbl-2">
-                <img src="photo/images (5).jfif" alt="" width="280px" height="200px">
-                <span class="mghira"><a href="../index1/point de vente/Tunis.html" style="animation-name: colors;animation-duration: 0.5s;animation-timing-function: linear;animation-iteration-count: infinite;">Agence <br>  BH Mghira</a></span>
-            </div>
-            <div class="bhn1">
-                <img src="photo/bh-netmobile.png" alt="" width="600px" height="220px">
-                <div class="bhn4">BHNET <span id="bhn4"> MOBILE</span></div>
-                <div class="bhn2"><a href="Gerez.html" class="bhn3">connexion</a></div>
-            </div>
-            <div class="last-c">
-                <img src="photo/euro.jpg" alt="">
-                <span class="tag1">Bienvenue <br> chez <br> BH Bank</span>
-                <SPan class="tag2"></SPan>
-            </div>
-            <div class="change">
-                <video src="photo/Banque  Affichage du taux de change.mp4" controls autoplay style="background-size:auto;width:600px;position: absolute;left:0px;"></video>
-            </div>
-            <div class="local">
-                <img src="photo/Trouver une agence.jpg" alt="" style="width: 590px;height: 220px;">
-                <span class="local-t1">TROUVER</span>
-                <span class="local-t2">UNE AGENCE</span>
-                <span class="local-b"></span>
-                    <select id="trou" name="trou" class="trou" size="1" onchange="window.location.href=this.value;"><option value="">Sélectionner une région...</option><option value="http://127.0.0.1:3000/c:/Users/admin/Desktop/Projet%20De%20Stage/page%20interne/index1/point%20de%20vente/bizerte.html">Bizerte</option><option value="http://127.0.0.1:3000/c:/Users/admin/Desktop/Projet%20De%20Stage/page%20interne/index1/point%20de%20vente/sfax.html">Sfax</option><option value="http://127.0.0.1:3000/c:/Users/admin/Desktop/Projet%20De%20Stage/page%20interne/index1/point%20de%20vente/sousse.html">Sousse</option><option value="http://127.0.0.1:3000/c:/Users/admin/Desktop/Projet%20De%20Stage/page%20interne/index1/point%20de%20vente/Tunis.html">Tunis</option><option value="http://127.0.0.1:3000/c:/Users/admin/Desktop/Projet%20De%20Stage/page%20interne/index1/point%20de%20vente/djerba.html">Djerba</option></select>
-            </div>
-            <div class="video-bh">
-                <span class="vote"><img src="photo/impor.jpg" alt="" style="  width: 600px;height: 250px;" ></span>
-                <span class="range"><input type="range" step="20" min="0" max="100"></span>
-            </div>
-            <div class="ouverture-t"><img src="photo/bhouverture.jpg" alt=""></div>
-        </tbody>
 
-        <footer>
-          <div class="foot">
-                <div class="lblanc-1"></div>
-                <div class="lblanc-2"></div>
-                
-                <span class="tr-1">NOUS CONTACTER</span>
-                <span class="pr-1">
-                    📍 18 Avenue Mohamed V Tunis <br>
-                    ✉️ <a href="mailto:contact@bhbank.tn">contact@bhbank.tn</a><br>
-                    📞 (+216) 71 126 000
-                </span>
-                
-                <span class="tr-2">MÉDIATEUR</span>
-                <span class="pr-2">
-                    Slahdine ben Salah <br>
-                    📍 9 R Fruits BrjBaccouch 2027 Ariana <br>
-                    ✉️ <a href="mailto:bensalah.slahddine@apbt.org.tn">bensalah.slahddine@apbt.org.tn</a>
-                </span>
-                
-                <span class="tr-3">LIENS UTILES</span>
-                <span class="pr-3">
-                    <a href="recru.html">RECRUTEMENT</a> <br>
-                    <a href="Gerez.html">GÉREZ VOS COMPTES</a>
-                </span>
-                
-                <span class="tr-4">NOTRE RÉSEAU</span>
-                <span class="pr-4">
-                    <a href="../index1/point%20de%20vente/djerba.html">JERBA</a> <br>
-                    <a href="../index1/point%20de%20vente/Tunis.html">TUNIS</a>
-                </span>
-                
-                <span class="tr-5">PUBLICATIONS</span>
-                <div class="pr-5">
-                    <a href="les%20demandes/retrait.html">retrait</a> <br>
-                    <a href="les%20demandes/remise.html">remise de cheque</a><br>
-                    <a href="les%20demandes/virement.html">ordre de virement</a><br>
-                    <a href="les%20demandes/versement.html">bulletin de versement en especes</a><br>
-                    <a href="les%20demandes/cheque.html">demande de chequier</a><br>
-                </div>
-                
-                <div class="social-media">
-                    <span class="copy">2023 © BH BANK COPYRIGHT</span><br>
-                    <a href="https://www.facebook.com/BHBank" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="Facebook" class="img1"></a> 
-                    <a href="https://www.instagram.com/bh_bank/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" class="img2"></a>
-                    <a href="https://www.youtube.com/channel/UCRw2rFa-9RhCg7Mq1q4Q7Sg?view_as=subscriber" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174883.png" alt="YouTube" class="img3"></a>
-                    <a href="https://www.linkedin.com/company/bh-bank" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" class="img4" alt="LinkedIn"></a> 
-                </div>
+            <div class="service-card">
+              <div class="service-icon">
+                <img src="images/téléchargement.png" alt="Virement" />
+              </div>
+              <h3 class="service-name">Ordre de virement</h3>
+              <a href="pages/virement.html" class="service-link"
+                >En savoir plus →</a
+              >
             </div>
-        </footer>
+
+            <div class="service-card">
+              <div class="service-icon">
+                <img
+                  src="images/téléchargement (1).png"
+                  alt="Remise de chèque"
+                />
+              </div>
+              <h3 class="service-name">Remise de chèque</h3>
+              <a href="pages/remise.html" class="service-link"
+                >En savoir plus →</a
+              >
+            </div>
+
+            <div class="service-card">
+              <div class="service-icon">
+                <img src="images/téléchargement (2).png" alt="Versement" />
+              </div>
+              <h3 class="service-name">Bulletin de versement en espèces</h3>
+              <a href="pages/versement.html" class="service-link"
+                >En savoir plus →</a
+              >
+            </div>
+
+            <div class="service-card">
+              <div class="service-icon">
+                <img src="images/téléchargement (1).jfif" alt="Chéquier" />
+              </div>
+              <h3 class="service-name">Demande de chéquier</h3>
+              <a href="pages/cheque.html" class="service-link"
+                >En savoir plus →</a
+              >
+            </div>
+          </div>
+        </section>
+        <!-- Section Actualités -->
+        <section class="news-section">
+          <h2 class="news-title">DERNIÈRES ACTUALITÉS</h2>
+          <div class="news-container">
+            <div class="news-card">
+              <div class="news-image-wrapper">
+                <img
+                  src="page_interne/index1/photo/promoteurs-immobiliers.png"
+                  alt="Actualités BH Bank"
+                  class="news-image"
+                />
+              </div>
+              <div class="news-content">
+                <h3 class="news-heading">18éme Sommet de la Francophonie</h3>
+                <p class="news-excerpt">
+                  Sous l'édide de CBF Conseil Bancaire et Financier...
+                </p>
+                <a href="pages/sommet.html" class="news-link"
+                  >Lire la suite →</a
+                >
+              </div>
+            </div>
+
+            <div class="news-card">
+              <div class="news-image-wrapper">
+                <img
+                  src="page_interne/index1/photo/promoteurs-immobiliers.png"
+                  alt="Actualités BH Bank"
+                  class="news-image"
+                />
+              </div>
+              <div class="news-content">
+                <h3 class="news-heading">
+                  La Tunisie, Porte d'accès vers l'Afrique
+                </h3>
+                <p class="news-excerpt">
+                  Elle abritera les 27 et 28 Aout 2022 à Tunis,la...
+                </p>
+                <a href="pages/acces-afrique.html" class="news-link"
+                  >Lire la suite →</a
+                >
+              </div>
+            </div>
+
+            <div class="news-card">
+              <div class="news-image-wrapper">
+                <img
+                  src="page_interne/index1/photo/promoteurs-immobiliers.png"
+                  alt="Actualités BH Bank"
+                  class="news-image"
+                />
+              </div>
+              <div class="news-content">
+                <h3 class="news-heading">
+                  La BH BANK Sponsor Officiel La septiè...
+                </h3>
+                <p class="news-excerpt">
+                  Forum International de la santé numérique...
+                </p>
+                <a href="pages/sept.html" class="news-link">Lire la suite →</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Section Devenir Client -->
+        <section class="become-client-section">
+          <div class="client-card">
+            <div class="client-icon">
+              <img
+                src="page_interne/index1/cartes bank/photo/tre.png"
+                alt="Devenir client BH Bank"
+              />
+            </div>
+            <div class="client-content">
+              <h2 class="client-title">Devenir client</h2>
+              <p class="client-description">
+                Rejoignez BH Bank et bénéficiez de nos services bancaires de
+                qualité
+              </p>
+              <a href="pages/d-client.html" class="client-button"
+                >En savoir plus</a
+              >
+            </div>
+          </div>
+        </section>
+        <!-- Section Médias et Vidéos -->
+        <section class="media-section">
+          <div class="media-grid">
+            <div class="media-card video-card">
+              <h3 class="media-title">L'histoire de BH Bank</h3>
+              <video
+                src="images/Lhistoire de la BH Bank.mp4"
+                controls
+                class="media-video"
+              ></video>
+            </div>
+
+            <div class="media-card agency-card">
+              <div class="agency-image-wrapper">
+                <img
+                  src="images/images (5).jfif"
+                  alt="Agence BH Mghira"
+                  class="agency-image"
+                />
+                <div class="agency-overlay">
+                  <a href="pages/Tunis.html" class="agency-link"
+                    >Agence BH Mghira</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="media-grid">
+            <div class="media-card mobile-card">
+              <div class="mobile-content">
+                <img
+                  src="images/bh-netmobile.png"
+                  alt="BHNET MOBILE"
+                  class="mobile-image"
+                />
+                <div class="mobile-info">
+                  <h3 class="mobile-title">
+                    BHNET <span class="mobile-highlight">MOBILE</span>
+                  </h3>
+                  <a href="pages/Gerez.html" class="mobile-button">Connexion</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="media-card welcome-card">
+              <div class="welcome-image-wrapper">
+                <img
+                  src="page_interne/index1/photo/euro.jpg"
+                  alt="Bienvenue chez BH Bank"
+                  class="welcome-image"
+                />
+                <div class="welcome-text">
+                  <h2 class="welcome-title">Bienvenue chez BH Bank</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="media-grid">
+            <div class="media-card exchange-card">
+              <h3 class="media-title">Taux de change</h3>
+              <video
+                src="images/Banque  Affichage du taux de change.mp4"
+                controls
+                autoplay
+                loop
+                muted
+                class="exchange-video"
+              ></video>
+            </div>
+
+            <div class="media-card location-card">
+              <div class="location-content">
+                <h3 class="location-title">Trouver une agence</h3>
+                <img
+                  src="images/Trouver une agence.jpg"
+                  alt="Trouver une agence"
+                  class="location-image"
+                />
+                <select
+                  id="trou"
+                  name="trou"
+                  class="location-select"
+                  onchange="window.location.href=this.value;"
+                >
+                  <option value="">Sélectionner une région...</option>
+                  <option value="pages/bizerte.html">Bizerte</option>
+                  <option value="pages/sfax.html">Sfax</option>
+                  <option value="pages/sousse.html">Sousse</option>
+                  <option value="pages/Tunis.html">Tunis</option>
+                  <option value="pages/djerba.html">Djerba</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="media-grid">
+            <div class="media-card promo-card">
+              <img
+                src="images/impor.jpg"
+                alt="Promotion BH Bank"
+                class="promo-image"
+              />
+            </div>
+
+            <div class="media-card opening-card">
+              <img
+                src="page_interne/index1/photo/bhouverture.jpg"
+                alt="Ouverture BH Bank"
+                class="opening-image"
+              />
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="modern-footer">
+        <div class="footer-container">
+          <div class="footer-grid">
+            <div class="footer-column">
+              <h3 class="footer-title">PUBLICATIONS</h3>
+              <ul class="footer-links">
+                <li><a href="pages/retrait.html">Retrait</a></li>
+                <li><a href="pages/remise.html">Remise de chèque</a></li>
+                <li><a href="pages/virement.html">Ordre de virement</a></li>
+                <li>
+                  <a href="pages/versement.html"
+                    >Bulletin de versement en espèces</a
+                  >
+                </li>
+                <li><a href="pages/cheque.html">Demande de chéquier</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h3 class="footer-title">LIENS UTILES</h3>
+              <ul class="footer-links">
+                <li><a href="pages/recru.html">Recrutement</a></li>
+                <li><a href="pages/Gerez.html">Gérez vos comptes</a></li>
+              </ul>
+              <h3 class="footer-title footer-title-spacing">NOTRE RÉSEAU</h3>
+              <ul class="footer-links">
+                <li><a href="pages/djerba.html">Djerba</a></li>
+                <li><a href="pages/Tunis.html">Tunis</a></li>
+                <li><a href="pages/bizerte.html">Bizerte</a></li>
+                <li><a href="pages/sfax.html">Sfax</a></li>
+                <li><a href="pages/sousse.html">Sousse</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h3 class="footer-title">NOUS CONTACTER</h3>
+              <div class="footer-contact">
+                <p class="contact-item">
+                  <span class="contact-icon">📍</span>
+                  <span>18 Avenue Mohamed V Tunis</span>
+                </p>
+                <p class="contact-item">
+                  <span class="contact-icon">✉️</span>
+                  <a href="mailto:contact@bhbank.tn">contact@bhbank.tn</a>
+                </p>
+                <p class="contact-item">
+                  <span class="contact-icon">📞</span>
+                  <a href="tel:+21671126000">(+216) 71 126 000</a>
+                </p>
+              </div>
+            </div>
+            <div class="footer-column">
+              <h3 class="footer-title">MÉDIATEUR</h3>
+              <div class="footer-contact">
+                <p class="contact-item">
+                  <strong>Slahdine ben Salah</strong>
+                </p>
+                <p class="contact-item">
+                  <span class="contact-icon">📍</span>
+                  <span>9 R Fruits BrjBaccouch 2027 Ariana</span>
+                </p>
+                <p class="contact-item">
+                  <span class="contact-icon">✉️</span>
+                  <a href="mailto:bensalah.slahddine@apbt.org.tn"
+                    >bensalah.slahddine@apbt.org.tn</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="footer-social">
+              <a
+                href="https://www.facebook.com/BHBank"
+                target="_blank"
+                class="social-link"
+                aria-label="Facebook"
+              >
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/124/124010.png"
+                  alt="Facebook"
+                />
+              </a>
+              <a
+                href="https://www.instagram.com/bh_bank/"
+                target="_blank"
+                class="social-link"
+                aria-label="Instagram"
+              >
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/174/174855.png"
+                  alt="Instagram"
+                />
+              </a>
+              <a
+                href="https://www.youtube.com/channel/UCRw2rFa-9RhCg7Mq1q4Q7Sg?view_as=subscriber"
+                target="_blank"
+                class="social-link"
+                aria-label="YouTube"
+              >
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/174/174883.png"
+                  alt="YouTube"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/bh-bank"
+                target="_blank"
+                class="social-link"
+                aria-label="LinkedIn"
+              >
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+                  alt="LinkedIn"
+                />
+              </a>
+            </div>
+            <div class="footer-copyright">
+              <p>&copy; 2024 BH BANK. Tous droits réservés.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
-</body>
+  </body>
 </html>

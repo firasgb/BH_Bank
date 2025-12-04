@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="../styles/points_des_ventes_styles/tunis_style.css"
+      href="../css/points_des_ventes_styles/tunis_style.css"
     />
-    <link rel="stylesheet" href="../styles/header_style.css" />
-    <link rel="stylesheet" href="../styles/footer_style.css" />
+    <link rel="stylesheet" href="../css/header_style.css" />
+    <link rel="stylesheet" href="../css/footer_style.css" />
     <title>EL M'GHIRA - BH Bank</title>
   </head>
   <body>
@@ -45,7 +45,7 @@
       <header>
         <div class="header-top">
           <div class="logo">
-            <img src="../photo/logo.png" alt="BH BANK" />
+            <img src="../images/logo.png" alt="BH BANK" />
           </div>
           <div class="search-container">
             <input type="search" placeholder="RECHERCHER..." />
@@ -129,76 +129,96 @@
           </div>
         </div>
       </main>
-      <footer>
-        <div class="foot">
-          <div class="lblanc-1"></div>
-          <div class="lblanc-2"></div>
+      <footer class="modern-footer">
+        <div class="footer-container">
+          <div class="footer-grid">
+            <!-- Colonne 1: Publications -->
+            <div class="footer-column">
+              <h3 class="footer-title">PUBLICATIONS</h3>
+              <ul class="footer-links">
+                <li><a href="retrait.html">Retrait</a></li>
+                <li><a href="remise.html">Remise de chèque</a></li>
+                <li><a href="virement.html">Ordre de virement</a></li>
+                <li><a href="versement.html">Bulletin de versement en espèces</a></li>
+                <li><a href="cheque.html">Demande de chéquier</a></li>
+              </ul>
+            </div>
 
-          <span class="tr-1">NOUS CONTACTER</span>
-          <span class="pr-1">
-            📍 18 Avenue Mohamed V Tunis <br />
-            ✉️ <a href="mailto:contact@bhbank.tn">contact@bhbank.tn</a><br />
-            📞 (+216) 71 126 000
-          </span>
-          <span class="tr-2">MÉDIATEUR</span>
-          <span class="pr-2">
-            Slahdine ben Salah <br />
-            📍 9 R Fruits BrjBaccouch 2027 Ariana <br />
-            ✉️
-            <a href="mailto:bensalah.slahddine@apbt.org.tn"
-              >bensalah.slahddine@apbt.org.tn</a
-            >
-          </span>
-          <span class="tr-3">LIENS UTILES</span>
-          <span class="pr-3">
-            <a href="../recru.html">RECRUTEMENT</a> <br />
-            <a href="../Gerez.html">GÉREZ VOS COMPTES</a>
-          </span>
-          <span class="tr-4">NOTRE RÉSEAU</span>
-          <span class="pr-4">
-            <a href="../point%20de%20vente/djerba.html">JERBA</a> <br />
-            <a href="../point%20de%20vente/Tunis.html">TUNIS</a>
-          </span>
-          <span class="tr-5">PUBLICATIONS</span>
-          <div class="pr-5">
-            <a href="../les%20demandes/retrait.html">retrait</a> <br />
-            <a href="../les%20demandes/remise.html">remise de cheque</a><br />
-            <a href="../les%20demandes/virement.html">ordre de virement</a
-            ><br />
-            <a href="../les%20demandes/versement.html"
-              >bulletin de versement en especes</a
-            ><br />
-            <a href="../les%20demandes/cheque.html">demande de chequier</a
-            ><br />
+            <!-- Colonne 2: Liens Utiles -->
+            <div class="footer-column">
+              <h3 class="footer-title">LIENS UTILES</h3>
+              <ul class="footer-links">
+                <li><a href="recru.html">Recrutement</a></li>
+                <li><a href="Gerez.html">Gérez vos comptes</a></li>
+              </ul>
+              
+              <h3 class="footer-title footer-title-spacing">NOTRE RÉSEAU</h3>
+              <ul class="footer-links">
+                <li><a href="djerba.html">Djerba</a></li>
+                <li><a href="Tunis.html">Tunis</a></li>
+                <li><a href="bizerte.html">Bizerte</a></li>
+                <li><a href="sfax.html">Sfax</a></li>
+                <li><a href="sousse.html">Sousse</a></li>
+              </ul>
+            </div>
+
+            <!-- Colonne 3: Contact -->
+            <div class="footer-column">
+              <h3 class="footer-title">NOUS CONTACTER</h3>
+              <div class="footer-contact">
+                <p class="contact-item">
+                  <span class="contact-icon">📍</span>
+                  <span>18 Avenue Mohamed V Tunis</span>
+                </p>
+                <p class="contact-item">
+                  <span class="contact-icon">✉️</span>
+                  <a href="mailto:contact@bhbank.tn">contact@bhbank.tn</a>
+                </p>
+                <p class="contact-item">
+                  <span class="contact-icon">📞</span>
+                  <a href="tel:+21671126000">(+216) 71 126 000</a>
+                </p>
+              </div>
+            </div>
+
+            <!-- Colonne 4: Médiateur -->
+            <div class="footer-column">
+              <h3 class="footer-title">MÉDIATEUR</h3>
+              <div class="footer-contact">
+                <p class="contact-item">
+                  <strong>Slahdine ben Salah</strong>
+                </p>
+                <p class="contact-item">
+                  <span class="contact-icon">📍</span>
+                  <span>9 R Fruits BrjBaccouch 2027 Ariana</span>
+                </p>
+                <p class="contact-item">
+                  <span class="contact-icon">✉️</span>
+                  <a href="mailto:bensalah.slahddine@apbt.org.tn">bensalah.slahddine@apbt.org.tn</a>
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="social-media">
-            <span class="copy">2023 © BH BANK COPYRIGHT</span><br />
-            <a href="https://www.facebook.com/BHBank" target="_blank"
-              ><img
-                src="https://cdn-icons-png.flaticon.com/512/124/124010.png"
-                alt="Facebook"
-                class="img1"
-            /></a>
-            <a href="https://www.instagram.com/bh_bank/" target="_blank"
-              ><img
-                src="https://cdn-icons-png.flaticon.com/512/174/174855.png"
-                alt="Instagram"
-                class="img2"
-            /></a>
-            <a
-              href="https://www.youtube.com/channel/UCRw2rFa-9RhCg7Mq1q4Q7Sg?view_as=subscriber"
-              target="_blank"
-              ><img
-                src="https://cdn-icons-png.flaticon.com/512/174/174883.png"
-                alt="YouTube"
-                class="img3"
-            /></a>
-            <a href="https://www.linkedin.com/company/bh-bank" target="_blank"
-              ><img
-                src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
-                class="img4"
-                alt="LinkedIn"
-            /></a>
+
+          <!-- Section Social Media et Copyright -->
+          <div class="footer-bottom">
+            <div class="footer-social">
+              <a href="https://www.facebook.com/BHBank" target="_blank" class="social-link" aria-label="Facebook">
+                <img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="Facebook" />
+              </a>
+              <a href="https://www.instagram.com/bh_bank/" target="_blank" class="social-link" aria-label="Instagram">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" />
+              </a>
+              <a href="https://www.youtube.com/channel/UCRw2rFa-9RhCg7Mq1q4Q7Sg?view_as=subscriber" target="_blank" class="social-link" aria-label="YouTube">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174883.png" alt="YouTube" />
+              </a>
+              <a href="https://www.linkedin.com/company/bh-bank" target="_blank" class="social-link" aria-label="LinkedIn">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" />
+              </a>
+            </div>
+            <div class="footer-copyright">
+              <p>&copy; 2024 BH BANK. Tous droits réservés.</p>
+            </div>
           </div>
         </div>
       </footer>

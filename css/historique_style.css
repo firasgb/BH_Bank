@@ -1,0 +1,88 @@
+body .main-container {
+  width: 1200px;
+  position: relative;
+  margin: 0 auto;
+  background-color: white;
+  min-height: 2800px;
+  padding-bottom: 0;
+}
+body {
+  background-color: gainsboro;
+}
+body .slide {
+  position: absolute;
+  left: 60px;
+  line-height: 25px;
+  top: 400px;
+  font-size: 15px;
+}
+body .slide2 {
+  width: 1200px;
+  height: 350px;
+  background-image: url(../page_interne/index1/photo/presen1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.scroll {
+  width: 40px;
+  height: 190px;
+  position: fixed;
+  top: 250px;
+  right: 5px;
+  z-index: 1;
+}
+
+.scroll img {
+  border-radius: 10px;
+  height: 25px;
+  width: 40px;
+  display: block;
+  margin-bottom: 5px;
+}
+.scroll {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 15px 10px;
+  border-radius: 25px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
+}
+
+main {
+  flex: 1;
+  position: relative;
+}
+
+.scroll a {
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.scroll a:hover {
+  transform: scale(1.15);
+}
+
+.scroll img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.scroll img:hover {
+  box-shadow: 0 4px 12px rgba(226, 0, 42, 0.4);
+  transform: translateY(-3px);
+}
+.modern-footer {
+  position: absolute;
+  top: 1750px;
+  width: 1200px;
+}
